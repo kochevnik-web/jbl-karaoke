@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jbl-karaoke/static/css/main.bab0b925.chunk.css",
+    "main.js": "/jbl-karaoke/static/js/main.18348414.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.18348414.chunk.js.map",
+    "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
+    "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
+    "static/js/2.a006fd73.chunk.js": "/jbl-karaoke/static/js/2.a006fd73.chunk.js",
+    "static/js/2.a006fd73.chunk.js.map": "/jbl-karaoke/static/js/2.a006fd73.chunk.js.map",
+    "index.html": "/jbl-karaoke/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/jbl-karaoke/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.a006fd73.chunk.js.LICENSE.txt": "/jbl-karaoke/static/js/2.a006fd73.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdffe6f4.js",
+    "static/js/2.a006fd73.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.18348414.chunk.js"
+  ]
+}

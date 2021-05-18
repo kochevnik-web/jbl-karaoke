@@ -1,0 +1,2 @@
+(this["webpackJsonpjbl-karaoke"]=this["webpackJsonpjbl-karaoke"]||[]).push([[0],{11:function(e,n,a){"use strict";a.r(n);a(1);var t=a(3),r=a.n(t),c=(a(8),a(9),a(0));var o=function(){return Object(c.jsx)("div",{className:"app app-jbl",children:"JBL Karaoke"})};r.a.render(Object(c.jsx)(o,{}),document.getElementById("root"))},8:function(e,n,a){},9:function(e,n,a){}},[[11,1,2]]]);
+//# sourceMappingURL=main.18348414.chunk.js.map
