@@ -28,8 +28,10 @@ export default function ContextProvider({ children }) {
                 const loadImg = new Image()
                 loadImg.src = image.url
                 // wait 2 seconds to simulate loading time
-                loadImg.onload = () =>
-                    resolve(image.url)
+                loadImg.onload = () => {
+                    resolve(image.url);
+                    console.log('Loaded img', image.name);
+                }
 
                 loadImg.onerror = err => reject(err)
         });
