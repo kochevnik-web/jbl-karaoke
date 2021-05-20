@@ -8,16 +8,38 @@
     }
 
     &-bg-left {
-        width: 45.2em;
         height: 112.1em;
         left: 4.6em;
         top: 9.1em;
+        width: 45.2em;
     }
 
     &-bg-right {
-        width: 47.2em;
         height: 89.6em;
         right: 3.3em;
         top: 48.5em;
+        width: 47.2em;
+    }
+
+    &-content {
+        margin: 0 auto;
+        padding: 5.5em 0 0 0;
+        width: 78em;
+
+        &-header {
+            align-items: center;
+            display: flex;
+
+            &-text {
+                margin: 0 3em 0 0;
+
+                span {
+                    color: var(--red);
+                    font-size: 3.4em;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
     }
 }
