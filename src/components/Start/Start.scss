@@ -1,6 +1,7 @@
 .start-app {
-    position: relative;
     min-height: 150em;
+    opacity: 0;
+    position: relative;
     width: 100%;
 
     &-abs-image {

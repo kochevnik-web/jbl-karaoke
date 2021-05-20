@@ -21,6 +21,7 @@ export default function ContextProvider({ children }) {
     const [em, setEm] = useState(getEm());
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false)
+    const [countLoaded, setCountLoaded] = useState(false)
 
     useEffect(() => {
         const loadImage = image => {

@@ -1,4 +1,5 @@
-import React, {useContext} from 'react';
+import React, {useContext, useRef, useEffect} from 'react';
+import gsap from 'gsap';
 import {Context} from '../../context';
 import StartParalax from '../StartParalax/StartParalax';
 import Logo from '../Logo/Logo';
@@ -7,10 +8,20 @@ import './Start.scss';
 
 export default function Start() {
 
+    let refStart = useRef(null);
+
     const {IMAGES} = useContext(Context);
 
+    useEffect(() => {
+        gsap.to(refStart, {
+            duration: 3,
+            opacity: 1,
+            ease: "power2.out",
+        });
+    });
+
     return (
-        <div className="start-app">
+        <div className="start-app" ref={el => (refStart = el)}>
             <img src={IMAGES[0].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-left"/>
             <img src={IMAGES[1].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-right"/>
             <StartParalax />
