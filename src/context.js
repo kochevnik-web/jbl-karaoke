@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 
+import IMAGES from './dataImg';
+
 const Context = React.createContext();
 
 export default function ContextProvider({ children }) {
@@ -18,6 +20,25 @@ export default function ContextProvider({ children }) {
 
     const [em, setEm] = useState(getEm());
     const [isMobale, setIsMobale] = useState(getIsMobile());
+    const [imgsLoaded, setImgsLoaded] = useState(false)
+
+    useEffect(() => {
+        const loadImage = image => {
+            return new Promise((resolve, reject) => {
+                const loadImg = new Image()
+                loadImg.src = image.url
+                // wait 2 seconds to simulate loading time
+                loadImg.onload = () =>
+                    resolve(image.url)
+
+                loadImg.onerror = err => reject(err)
+        });
+    }
+
+      Promise.all(IMAGES.map(image => loadImage(image)))
+        .then(() => setImgsLoaded(true))
+        .catch(err => console.log("Failed to load images", err))
+    }, []);
 
     useEffect(()=>{
         setEm(getEm());
@@ -30,7 +51,7 @@ export default function ContextProvider({ children }) {
     });
 
     return (
-        <Context.Provider value={{ em, isMobale }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded }}>
         {children}
         </Context.Provider>
     );
