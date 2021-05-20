@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/jbl-karaoke/static/css/main.65daa75b.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.0522a4af.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.0522a4af.chunk.js.map",
+    "main.css": "/jbl-karaoke/static/css/main.6ff4b20d.chunk.css",
+    "main.js": "/jbl-karaoke/static/js/main.8255b332.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.8255b332.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
-    "static/js/2.0bfcb249.chunk.js": "/jbl-karaoke/static/js/2.0bfcb249.chunk.js",
-    "static/js/2.0bfcb249.chunk.js.map": "/jbl-karaoke/static/js/2.0bfcb249.chunk.js.map",
+    "static/js/2.2048bb05.chunk.js": "/jbl-karaoke/static/js/2.2048bb05.chunk.js",
+    "static/js/2.2048bb05.chunk.js.map": "/jbl-karaoke/static/js/2.2048bb05.chunk.js.map",
     "index.html": "/jbl-karaoke/index.html",
-    "static/css/main.65daa75b.chunk.css.map": "/jbl-karaoke/static/css/main.65daa75b.chunk.css.map",
-    "static/js/2.0bfcb249.chunk.js.LICENSE.txt": "/jbl-karaoke/static/js/2.0bfcb249.chunk.js.LICENSE.txt",
+    "static/css/main.6ff4b20d.chunk.css.map": "/jbl-karaoke/static/css/main.6ff4b20d.chunk.css.map",
+    "static/js/2.2048bb05.chunk.js.LICENSE.txt": "/jbl-karaoke/static/js/2.2048bb05.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/jbl-karaoke/static/media/GothamPro.9e3de475.woff",
     "static/media/bgBalls.85ef1d16.png": "/jbl-karaoke/static/media/bgBalls.85ef1d16.png",
     "static/media/left.78b44509.png": "/jbl-karaoke/static/media/left.78b44509.png",
     "static/media/right.5cd3a919.png": "/jbl-karaoke/static/media/right.5cd3a919.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bdffe6f4.js",
-    "static/js/2.0bfcb249.chunk.js",
-    "static/css/main.65daa75b.chunk.css",
-    "static/js/main.0522a4af.chunk.js"
+    "static/js/2.2048bb05.chunk.js",
+    "static/css/main.6ff4b20d.chunk.css",
+    "static/js/main.8255b332.chunk.js"
   ]
 }
