@@ -53,6 +53,8 @@
 
             &-text {
                 line-height: 8em;
+                opacity: 0;
+                transform: translateY(100px);
 
                 span {
                     font-size: 7.1em;

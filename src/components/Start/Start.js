@@ -13,6 +13,7 @@ const trans2 = (x, y) => `translate3d(${x / 170}px,0,0)`
 export default function Start() {
 
     let refStart = useRef(null);
+    let refTitle = useRef(null);
 
     const {IMAGES} = useContext(Context);
 
@@ -21,6 +22,13 @@ export default function Start() {
             duration: 0.75,
             opacity: 1,
             ease: "power2.in",
+        });
+        gsap.to(refTitle, {
+            duration: 1,
+            y: 0,
+            opacity: 1,
+            delay: 1,
+            ease: "power4.out",
         });
     });
 
@@ -50,7 +58,7 @@ export default function Start() {
                         <Logo />
                     </div>
                     <div className="start-app-content-title">
-                        <div className="start-app-content-title-text">
+                        <div className="start-app-content-title-text" ref={el => (refTitle = el)}>
                             <span>Исполняй на 5 звезд и зажги вечеринку с JBL!</span>
                         </div>
                         <img src={IMAGES[4].url} alt={IMAGES[4].name}/>
