@@ -30,6 +30,7 @@
         &-header {
             align-items: center;
             display: flex;
+            margin: 0 0 1em 0;
 
             &-text {
                 margin: 0 3em 0 0;
@@ -40,6 +41,26 @@
                     font-weight: bold;
                     text-transform: uppercase;
                 }
+            }
+        }
+
+        &-title {
+            color: var(--text);
+
+            &-text {
+                line-height: 8em;
+
+                span {
+                    font-size: 7.1em;
+                    font-weight: bold;
+                }
+            }
+
+            img {
+                height: auto;
+                max-width: 100%;
+                position: relative;
+                top: -11.3em;
             }
         }
     }

@@ -34,6 +34,12 @@ export default function Start() {
                     </div>
                     <Logo />
                 </div>
+                <div className="start-app-content-title">
+                    <div className="start-app-content-title-text">
+                        <span>Исполняй на 5 звезд и зажги вечеринку с JBL!</span>
+                    </div>
+                    <img src={IMAGES[4].url} alt={IMAGES[4].name}/>
+                </div>
             </div>
         </div>
     )

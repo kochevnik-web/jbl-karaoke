@@ -2,6 +2,7 @@ import leftImg from './img/left.png';
 import RightImg from './img/right.png';
 import bgBalls from './img/bgBalls.png';
 import jblLogo from './img/jblLogo.png';
+import startTitle from './img/startTitle.png';
 
 const dataImages = [
     {
@@ -23,6 +24,11 @@ const dataImages = [
       id: 3,
       name: 'jblLogo',
       url: jblLogo
+    },
+    {
+      id: 4,
+      name: 'startTitle',
+      url: startTitle
     },
 ];
 
