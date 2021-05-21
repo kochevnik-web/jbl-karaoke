@@ -157,6 +157,7 @@ body {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    line-height: 1;
     min-height: 7.3em;
     transition: color ease-in 0.3s, background-color ease-in 0.3s;
 
@@ -168,5 +169,9 @@ body {
         &:hover {
             background-color: transparent;
         }
+    }
+
+    .app-mobile & {
+        min-height: 4.5em;
     }
 }

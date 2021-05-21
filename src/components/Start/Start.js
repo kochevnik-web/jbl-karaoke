@@ -15,7 +15,7 @@ export default function Start() {
     let refStart = useRef(null);
     let refTitle = useRef(null);
 
-    const {IMAGES} = useContext(Context);
+    const {IMAGES, isMobale} = useContext(Context);
 
     useEffect(() => {
         gsap.to(refStart, {
@@ -36,18 +36,25 @@ export default function Start() {
 
     return (
         <div className="start-app" ref={el => (refStart = el)}>
-            <img src={IMAGES[0].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-left"/>
-            <img src={IMAGES[1].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-right"/>
+            {!isMobale && <img src={IMAGES[0].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-left"/>}
+            {!isMobale && <img src={IMAGES[1].url} alt={IMAGES[0].name} className="start-app-abs-image start-app-bg-right"/>}
             <div className="start-paralax" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
-                <animated.img
-                    src={IMAGES[2].url}
-                    alt={IMAGES[2].name}
-                    style={{ transform: props.xy.interpolate(trans1) }}
-                    className="start-paralax-confetti"
-                />
-                <animated.div className="start-paralax-discoball" style={{ transform: props.xy.interpolate(trans2) }}>
-                    <img src={IMAGES[5].url} alt={IMAGES[5].name}/>
-                </animated.div>
+                {!isMobale ? (
+                    <animated.img
+                        src={IMAGES[2].url}
+                        alt={IMAGES[2].name}
+                        style={{ transform: props.xy.interpolate(trans1) }}
+                        className="start-paralax-confetti"
+                    />
+                ) : null }
+
+                {/* Картинка диско шара с paralax эффектом */}
+                {!isMobale ? (
+                    <animated.div className="start-paralax-discoball" style={{ transform: props.xy.interpolate(trans2) }}>
+                        <img src={IMAGES[5].url} alt={IMAGES[5].name}/>
+                    </animated.div>
+                ) : null }
+
                 <div className="start-app-content">
                     <div className="start-app-content-header">
                         <div className="start-app-content-header-text">
@@ -61,7 +68,15 @@ export default function Start() {
                         <div className="start-app-content-title-text" ref={el => (refTitle = el)}>
                             <span>Исполняй на 5 звезд и зажги вечеринку с JBL!</span>
                         </div>
-                        <img src={IMAGES[4].url} alt={IMAGES[4].name}/>
+
+                        {/* Картинка парень на диване на для мобильной и десктоп версии */}
+                        {isMobale ? (
+                                <img src={IMAGES[6].url} alt={IMAGES[6].name}/>
+                            ) : (
+                                <img src={IMAGES[4].url} alt={IMAGES[4].name}/>
+                            )
+                        }
+
                     </div>
                     <div className="start-app-content-paragraph">
                         <span>

@@ -8,10 +8,14 @@ import './App.scss';
 
 function App() {
 
-    const {em, imgsLoaded} = useContext(Context);
+    const {em, imgsLoaded, isMobale} = useContext(Context);
+
+    let cls = ['app', 'app-jbl'];
+
+    if(isMobale) cls.push('app-mobile');
 
     return (
-        <div className="app app-jbl" style={{fontSize: em}}>
+        <div className={cls.join(' ')} style={{fontSize: em}}>
             {imgsLoaded ? <Start /> : <Loader />}
         </div>
     );

@@ -4,6 +4,7 @@ import bgBalls from './img/bgBalls.png';
 import jblLogo from './img/jblLogo.png';
 import startTitle from './img/startTitle.png';
 import discoBall from './img/discoBall.png';
+import mobileStartTitle from './img/mobileStartTitle.png';
 
 const dataImages = [
     {
@@ -35,6 +36,11 @@ const dataImages = [
       id: 5,
       name: 'discoBall',
       url: discoBall
+    },
+    {
+      id: 6,
+      name: 'mobileStartTitle',
+      url: mobileStartTitle
     },
 ];
 

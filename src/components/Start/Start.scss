@@ -4,6 +4,11 @@
     position: relative;
     width: 100%;
 
+    .app-mobile & {
+        min-height: auto;
+        padding: 0.6em;
+    }
+
     &-abs-image {
         position: absolute;
     }
@@ -31,19 +36,41 @@
         width: 78em;
         z-index: 1;
 
+        .app-mobile & {
+            left: 0;
+            padding: 0 0.7em;
+            position: relative;
+            transform: translateX(0);
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
         &-header {
             align-items: center;
             display: flex;
             margin: 0 0 1em 0;
 
+            .app-mobile & {
+                justify-content: center;
+            }
+
             &-text {
                 margin: 0 3em 0 0;
+
+                .app-mobile & {
+                    margin: 0 2em 0 0;
+                }
 
                 span {
                     color: var(--red);
                     font-size: 3.4em;
                     font-weight: bold;
                     text-transform: uppercase;
+
+                    .app-mobile & {
+                        font-size: 2.8em;
+                    }
                 }
             }
         }
@@ -56,9 +83,21 @@
                 opacity: 0;
                 transform: translateY(100px);
 
+                .app-mobile & {
+                    line-height: 3.4em;
+                    position: relative;
+                    top: 17em;
+                    z-index: 1;
+                    transform: translateY(50px);
+                }
+
                 span {
                     font-size: 7.1em;
                     font-weight: bold;
+
+                    .app-mobile & {
+                        font-size: 2.8em;
+                    }
                 }
             }
 
@@ -67,6 +106,10 @@
                 max-width: 100%;
                 position: relative;
                 top: -11.3em;
+
+                .app-mobile & {
+                    top: -17em;
+                }
             }
         }
 
@@ -75,8 +118,17 @@
             line-height: 3.9em;
             margin: -8.6em 0 0 0;
 
+            .app-mobile & {
+                line-height: 2.4em;
+                margin: -2em 0 0 0;
+            }
+
             span {
                 font-size: 2.6em;
+
+                .app-mobile & {
+                    font-size: 1.4em;
+                }
             }
         }
 
@@ -92,6 +144,10 @@
             span {
                 font-weight: bold;
                 font-size: 3.2em;
+
+                .app-mobile & {
+                    font-size: 2.1em;
+                }
             }
         }
     }
@@ -104,6 +160,15 @@
     top: 0;
     transform: translateX(-50%);
     width: 180.1em;
+
+    .app-mobile & {
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        transform: translateX(0);
+        width: 100%;
+    }
 
     &-confetti {
         position: relative;
