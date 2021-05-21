@@ -149,3 +149,24 @@ body {
     --text: #333333;
     --navbargap: 64px;
 }
+
+.app-btn {
+    align-items: center;
+    border-radius: 1em;
+    border-width: 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    min-height: 7.3em;
+    transition: color ease-in 0.3s, background-color ease-in 0.3s;
+
+    &-red {
+        background-color: var(--red);
+        border-color: var(--red);
+        border-style: solid;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
