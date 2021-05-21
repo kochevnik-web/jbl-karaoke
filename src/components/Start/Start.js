@@ -2,7 +2,6 @@ import React, {useContext, useRef, useEffect} from 'react';
 import gsap from 'gsap';
 import {Context} from '../../context';
 import Logo from '../Logo/Logo';
-import DiscoBall from '../DiscoBall/DiscoBall';
 import { useSpring, animated } from 'react-spring';
 
 import './Start.scss';
