@@ -23,9 +23,11 @@
     }
 
     &-content {
-        margin: 0 auto;
+        left: 50%;
         padding: 5.5em 0 0 0;
-        position: relative;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 0;
         width: 78em;
         z-index: 1;
 
@@ -89,6 +91,34 @@
                 font-weight: bold;
                 font-size: 3.2em;
             }
+        }
+    }
+}
+
+.start-paralax {
+    height: 135.6em;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 180.1em;
+
+    &-confetti {
+        position: relative;
+        top: 4.2em;
+        width: 100%;
+    }
+
+    &-discoball {
+        height: 39.2em;
+        position: absolute;
+        width: 32.9em;
+        left: 139em;
+        top: 0;
+
+        img {
+            height: auto;
+            max-width: 100%;
         }
     }
 }
