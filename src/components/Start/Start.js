@@ -14,9 +14,9 @@ export default function Start() {
 
     useEffect(() => {
         gsap.to(refStart, {
-            duration: 3,
+            duration: 0.75,
             opacity: 1,
-            ease: "power2.out",
+            ease: "power2.in",
         });
     });
 

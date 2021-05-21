@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import {Context} from '../../context';
 
 import Start from '../Start/Start';
+import Loader from '../Loader/Loader';
 
 import './App.scss';
 
@@ -11,7 +12,7 @@ function App() {
 
     return (
         <div className="app app-jbl" style={{fontSize: em}}>
-            {imgsLoaded && <Start />}
+            {imgsLoaded ? <Start /> : <Loader />}
         </div>
     );
 }

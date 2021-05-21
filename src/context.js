@@ -21,27 +21,31 @@ export default function ContextProvider({ children }) {
     const [em, setEm] = useState(getEm());
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false)
-    const [countLoaded, setCountLoaded] = useState(false)
+    const [countLoaded, setCountLoaded] = useState(0)
 
     useEffect(() => {
         const loadImage = image => {
-            return new Promise((resolve, reject) => {
                 const loadImg = new Image()
                 loadImg.src = image.url
-                // wait 2 seconds to simulate loading time
+
                 loadImg.onload = () => {
-                    resolve(image.url);
+                    setCountLoaded(countLoaded + 1);
                     console.log('Loaded img', image.name);
                 }
 
-                loadImg.onerror = err => reject(err)
-        });
-    }
+                loadImg.onerror = err => {
+                    console.log(err);
+                }
+        };
 
-      Promise.all(IMAGES.map(image => loadImage(image)))
-        .then(() => setImgsLoaded(true))
-        .catch(err => console.log("Failed to load images", err))
-    }, []);
+        if(countLoaded === IMAGES.length){
+            setImgsLoaded(true);
+        } else {
+            loadImage(IMAGES[countLoaded]);
+        }
+
+
+    }, [countLoaded]);
 
     useEffect(()=>{
         setEm(getEm());
@@ -54,7 +58,7 @@ export default function ContextProvider({ children }) {
     });
 
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded }}>
         {children}
         </Context.Provider>
     );
