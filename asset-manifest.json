@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/jbl-karaoke/static/css/main.4bff2ef0.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.ce6b6fbb.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.ce6b6fbb.chunk.js.map",
+    "main.css": "/jbl-karaoke/static/css/main.806b9951.chunk.css",
+    "main.js": "/jbl-karaoke/static/js/main.45ea67f7.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.45ea67f7.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.5e103919.chunk.js": "/jbl-karaoke/static/js/2.5e103919.chunk.js",
     "static/js/2.5e103919.chunk.js.map": "/jbl-karaoke/static/js/2.5e103919.chunk.js.map",
     "index.html": "/jbl-karaoke/index.html",
-    "static/css/main.4bff2ef0.chunk.css.map": "/jbl-karaoke/static/css/main.4bff2ef0.chunk.css.map",
+    "static/css/main.806b9951.chunk.css.map": "/jbl-karaoke/static/css/main.806b9951.chunk.css.map",
     "static/js/2.5e103919.chunk.js.LICENSE.txt": "/jbl-karaoke/static/js/2.5e103919.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/jbl-karaoke/static/media/GothamPro.9e3de475.woff",
     "static/media/bgBalls.85ef1d16.png": "/jbl-karaoke/static/media/bgBalls.85ef1d16.png",
     "static/media/discoBall.8c0331ec.png": "/jbl-karaoke/static/media/discoBall.8c0331ec.png",
     "static/media/left.78b44509.png": "/jbl-karaoke/static/media/left.78b44509.png",
+    "static/media/mobileStartTitle.efd60e45.png": "/jbl-karaoke/static/media/mobileStartTitle.efd60e45.png",
     "static/media/right.5cd3a919.png": "/jbl-karaoke/static/media/right.5cd3a919.png",
     "static/media/startTitle.b2448a3e.png": "/jbl-karaoke/static/media/startTitle.b2448a3e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.5e103919.chunk.js",
-    "static/css/main.4bff2ef0.chunk.css",
-    "static/js/main.ce6b6fbb.chunk.js"
+    "static/css/main.806b9951.chunk.css",
+    "static/js/main.45ea67f7.chunk.js"
   ]
 }
