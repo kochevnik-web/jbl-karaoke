@@ -24,6 +24,8 @@ export default function ContextProvider({ children }) {
     const [countLoaded, setCountLoaded] = useState(0)
 
     useEffect(() => {
+        let timer = null;
+
         const loadImage = image => {
                 const loadImg = new Image()
                 loadImg.src = image.url
@@ -39,11 +41,16 @@ export default function ContextProvider({ children }) {
         };
 
         if(countLoaded === IMAGES.length){
-            setImgsLoaded(true);
+            timer = setTimeout(() => {
+                setImgsLoaded(true);
+            }, 800);
         } else {
             loadImage(IMAGES[countLoaded]);
         }
 
+        return () => {
+            clearTimeout(timer);
+        }
 
     }, [countLoaded]);
 
