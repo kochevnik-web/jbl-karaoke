@@ -1,0 +1,27 @@
+.app-game {
+    height: 94.9em;
+    overflow: hidden;
+    position: relative;
+    width: 192em;
+
+    &-bgimg {
+        left: 0;
+        position: absolute;
+        width: 100%;
+
+        &.top {
+            top: -6.4em;
+            z-index: 1;
+        }
+
+        &.bottom {
+            bottom: 0;
+            z-index: 2;
+        }
+    }
+
+    &-elem {
+        position: absolute;
+        z-index: 5;
+    }
+}

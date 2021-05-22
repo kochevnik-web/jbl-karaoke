@@ -1,0 +1,41 @@
+.overlay {
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+
+    &-message {
+        position: relative;
+        width: 93.8em;
+        height: 56em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 6.5em 0 9em;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+    &-content {
+        position: relative;
+
+        &-text {
+            line-height: 3.4em;
+
+            span {
+                font-size: 2.6em;
+            }
+        }
+    }
+}

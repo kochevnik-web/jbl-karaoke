@@ -19,9 +19,11 @@ export default function ContextProvider({ children }) {
     }
 
     const [em, setEm] = useState(getEm());
+    const [screen, setScreen] = useState('start');
     const [isMobale, setIsMobale] = useState(getIsMobile());
-    const [imgsLoaded, setImgsLoaded] = useState(false)
-    const [countLoaded, setCountLoaded] = useState(0)
+    const [imgsLoaded, setImgsLoaded] = useState(false);
+    const [countLoaded, setCountLoaded] = useState(0);
+    const [overley, setOverley] = useState(false);
 
     useEffect(() => {
         let timer = null;
@@ -59,13 +61,30 @@ export default function ContextProvider({ children }) {
         setIsMobale(getIsMobile());
     },[]);
 
+    useEffect(()=>{
+        if(screen === 'game') setOverley(true);
+    },[screen]);
+
     window.addEventListener('resize', () =>{
         setEm(getEm());
         setIsMobale(getIsMobile());
     });
 
+    useEffect(()=>{
+        console.log(overley)
+        if(overley) {
+            document.body.style.position = 'fixed';
+            document.body.style.overflow = 'hidden';
+            document.body.style.height = '100vh';
+        } else {
+            document.body.style.position = null;
+            document.body.style.overflow = null;
+            document.body.style.height = null;
+        }
+    },[overley]);
+
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, setScreen, overley }}>
         {children}
         </Context.Provider>
     );

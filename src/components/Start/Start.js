@@ -15,7 +15,7 @@ export default function Start() {
     let refStart = useRef(null);
     let refTitle = useRef(null);
 
-    const {IMAGES, isMobale} = useContext(Context);
+    const {IMAGES, isMobale, setScreen} = useContext(Context);
 
     useEffect(() => {
         gsap.to(refStart, {
@@ -83,7 +83,7 @@ export default function Start() {
                             Отличная вечеринка — это когда гости танцуют, поют и общаются под любимую музыку. Веселая и дружеская атмосфера вдохновляет на то, чтобы взять в руки микрофон и устроить настоящий караоке-батл! Если твоя вечеринка проходит с JBL, выпустившим новую акустическую систему JBL PartyBox On-the-Go с беспроводным микрофоном, то у тебя больше нет причин стесняться своих талантов. Готов поразить всех своим бесподобным выступлением? Исполняй треки — а мы расскажем, получилось ли у тебя устроить незабываемый вечер для своих гостей.
                         </span>
                     </div>
-                    <div className="start-app-content-button app-btn app-btn-red">
+                    <div className="start-app-content-button app-btn app-btn-red" onClick={() => setScreen('game')}>
                         <span>Зажигаем!</span>
                     </div>
                 </div>
