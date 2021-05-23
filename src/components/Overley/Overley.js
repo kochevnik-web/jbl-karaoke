@@ -8,10 +8,12 @@ import './Overley.scss';
 
 export default function Overley() {
 
-    const {IMAGES} = useContext(Context);
+    const {IMAGES, setOverley} = useContext(Context);
 
     const [countOverley, setCoutnOverlaey] = useState(0);
     const [animation, setAnimation] = useState(0);
+    const [overAnimation, setOverAnimation] = useState(false);
+    const [check, setCheck] = useState(false);
 
     let refElem = useRef(null);
     let refWin = useRef(null);
@@ -27,7 +29,7 @@ export default function Overley() {
     }, []);
 
     useEffect(() => {
-        if(animation !== 0) {
+        if(animation !== 0 && animation !== data.length) {
             gsap.to(refWin, {
                 duration: 0.5,
                 x: '-100%',
@@ -44,6 +46,26 @@ export default function Overley() {
         }
     }, [animation]);
 
+
+    useEffect(() => {
+        if(overAnimation){
+            gsap.to(refElem, {
+                delay: 0.8,
+                duration: 0.75,
+                opacity: 0,
+                ease: "power2.in",
+            });
+
+            let timout = setTimeout(() => {
+                setOverley(false);
+            }, 1600);
+
+            return () => {
+                clearTimeout(timout);
+            }
+        }
+    }, [overAnimation]);
+
     const nextOverlay = () => {
         setAnimation(animation + 1);
         setTimeout(() => {
@@ -51,27 +73,61 @@ export default function Overley() {
         }, 400);
     }
 
+    const handleAnsver = ans => {
+        if(check === false){
+            setAnimation(0);
+            setCheck(ans);
+            setOverAnimation(true);
+        }
+    }
+
+    const {style, idBg, content, typeBtn, variants} = data[countOverley];
+
     return (
         <div className="overlay" ref={el => (refElem = el)}>
-            <div className="overlay-message" ref={el => (refWin = el)} style={data[countOverley].style}>
-                <img src={IMAGES[data[countOverley].idBg].url} alt={IMAGES[data[countOverley].idBg].name}/>
+            <div className="overlay-message" ref={el => (refWin = el)} style={style}>
+                <img src={IMAGES[idBg].url} alt={IMAGES[idBg].name}/>
                 <div className="overlay-content">
                     <div className="overlay-content-text" >
-                        <div dangerouslySetInnerHTML={{__html: data[countOverley].content}}></div>
+                        <div dangerouslySetInnerHTML={{__html: content}}></div>
 
-                        {data[countOverley].typeBtn === 'arrow' && (
+                        {typeBtn === 'arrow' && (
                             <div className="overlay-content-btn-arrow" onClick={nextOverlay}>
                                 <img src={IMAGES[10].url} alt={IMAGES[10].name}/>
                             </div>
                         )}
 
-                        {data[countOverley].typeBtn === 'next' && (
+                        {typeBtn === 'next' && (
                             <div className="overlay-content-buttons">
                                 <div className="overlay-content-btn" onClick={nextOverlay}>
                                     <span>
                                         Запевай
                                     </span>
                                 </div>
+                            </div>
+                        )}
+
+                        {typeBtn === 'variants' && (
+                            <div className={'overlay-content-buttons' + (variants.vertical ? ' vertical' : '')}>
+                                {variants.data.map((el, i) => {
+
+                                    let clx = ['ans-button'];
+                                    if(check !== false) {
+                                        clx.push('ans-button-check');
+                                        if(i === check && !el.ans) {
+                                            clx.push('ans-button-no');
+                                        }
+                                        if(el.ans){
+                                            clx.push('ans-button-yes');
+                                        }
+                                    }
+
+                                    return (
+                                        <div key={i} className={clx.join(' ')} onClick={() => handleAnsver(i)}>
+                                            <span>{el.title}</span>
+                                        </div>
+                                    )
+                                })}
                             </div>
                         )}
 

@@ -9,6 +9,7 @@ import gameLocation0 from './img/gameLocation0.png';
 import elem1 from './img/elem1.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
+import mess3 from './img/mess3.png';
 import btnArrow from './img/btnArrow.png';
 
 const dataImages = [
@@ -71,6 +72,11 @@ const dataImages = [
       id: 11,
       name: 'mess2',
       url: mess2
+    },
+    {
+      id: 12,
+      name: 'mess3',
+      url: mess3
     },
 ];
 

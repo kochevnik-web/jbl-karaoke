@@ -84,7 +84,7 @@ export default function ContextProvider({ children }) {
     },[overley]);
 
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley }}>
         {children}
         </Context.Provider>
     );

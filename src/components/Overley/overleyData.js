@@ -11,6 +11,20 @@ const overleyData = [
         typeBtn: 'next',
         style: {height: '42.6em', width: '91.8em'}
     },
+    {
+        idBg: 12,
+        content: '<span><strong>DJ Smash — «Волна»</strong><br>Я волна, новая волна<br>Подо мной будет вся страна<br>Подожди, скоро навсегда</span>',
+        typeBtn: 'variants',
+        style: {height: '67.6em', width: '58.1em'},
+        variants: {
+            vertical: true,
+            data: [
+                {title: 'Затоплю ваши города', ans: true},
+                {title: 'Уроню всех ваших котят', ans: false},
+                {title: 'Упаду раз и навсегда', ans: false},
+            ]
+        }
+    },
 ];
 
 export default overleyData;
