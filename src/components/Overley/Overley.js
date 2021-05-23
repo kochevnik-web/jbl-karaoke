@@ -8,12 +8,14 @@ import './Overley.scss';
 
 export default function Overley() {
 
-    const {IMAGES, setOverley} = useContext(Context);
+    const {IMAGES, setOverley, setYesNo} = useContext(Context);
 
     const [countOverley, setCoutnOverlaey] = useState(0);
     const [animation, setAnimation] = useState(0);
     const [overAnimation, setOverAnimation] = useState(false);
     const [check, setCheck] = useState(false);
+
+    const {style, idBg, content, typeBtn, variants} = data[countOverley];
 
     let refElem = useRef(null);
     let refWin = useRef(null);
@@ -58,6 +60,7 @@ export default function Overley() {
 
             let timout = setTimeout(() => {
                 setOverley(false);
+                setYesNo(variants.data[check].ans);
             }, 1600);
 
             return () => {
@@ -81,8 +84,6 @@ export default function Overley() {
         }
     }
 
-    const {style, idBg, content, typeBtn, variants} = data[countOverley];
-
     return (
         <div className="overlay" ref={el => (refElem = el)}>
             <div className="overlay-message" ref={el => (refWin = el)} style={style}>
@@ -93,7 +94,7 @@ export default function Overley() {
 
                         {typeBtn === 'arrow' && (
                             <div className="overlay-content-btn-arrow" onClick={nextOverlay}>
-                                <img src={IMAGES[10].url} alt={IMAGES[10].name}/>
+                                <img src={IMAGES[9].url} alt={IMAGES[9].name}/>
                             </div>
                         )}
 

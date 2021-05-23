@@ -20,6 +20,8 @@ export default function ContextProvider({ children }) {
 
     const [em, setEm] = useState(getEm());
     const [screen, setScreen] = useState('start');//start / game / final
+    const [level, setLevel] = useState(0);
+    const [yesno, setYesNo] = useState(null);
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
@@ -84,7 +86,7 @@ export default function ContextProvider({ children }) {
     },[overley]);
 
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo }}>
         {children}
         </Context.Provider>
     );

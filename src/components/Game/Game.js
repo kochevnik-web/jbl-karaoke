@@ -1,16 +1,24 @@
 import React, {useContext} from 'react';
 import {Context} from '../../context';
 
+import levels from './levelsData';
+
 import './Game.scss';
 
 export default function Game() {
 
-    const {IMAGES} = useContext(Context);
+    const {IMAGES, level, yesno} = useContext(Context);
+
+    const {bgImg, corect, nocorect} = levels[level];
+
+    let id = bgImg;
+
+    if(yesno === true) id = corect;
+    if(yesno === false) id = nocorect;
 
     return (
         <div className="app-game">
-            <img className="app-game-bgimg top" src={IMAGES[7].url} alt={IMAGES[7].name}/>
-            <img className="app-game-elem" src={IMAGES[8].url} alt={IMAGES[8].name} style={{width: '16.6em', height: '51.3em'}}/>
+            <img className="app-game-bgimg top" src={IMAGES[id].url} alt={IMAGES[id].name}/>
         </div>
     )
 }

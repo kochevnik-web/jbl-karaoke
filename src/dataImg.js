@@ -6,7 +6,8 @@ import startTitle from './img/startTitle.png';
 import discoBall from './img/discoBall.png';
 import mobileStartTitle from './img/mobileStartTitle.png';
 import gameLocation0 from './img/gameLocation0.png';
-import elem1 from './img/elem1.png';
+import gameLocation01 from './img/gameLocation01.png';
+import gameLocation02 from './img/gameLocation02.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
@@ -55,28 +56,33 @@ const dataImages = [
     },
     {
       id: 8,
-      name: 'elem1',
-      url: elem1
-    },
-    {
-      id: 9,
       name: 'mess1',
       url: mess1
     },
     {
-      id: 10,
+      id: 9,
       name: 'btnArrow',
       url: btnArrow
     },
     {
-      id: 11,
+      id: 10,
       name: 'mess2',
       url: mess2
     },
     {
-      id: 12,
+      id: 11,
       name: 'mess3',
       url: mess3
+    },
+    {
+      id: 12,
+      name: 'gameLocation01',
+      url: gameLocation01
+    },
+    {
+      id: 13,
+      name: 'gameLocation02',
+      url: gameLocation02
     },
 ];
 
