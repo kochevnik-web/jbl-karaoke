@@ -12,12 +12,11 @@
 
     &-message {
         position: relative;
-        width: 93.8em;
-        height: 56em;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 0 6.5em 0 9em;
+        margin: 64px 0 0 0;
 
         img {
             position: absolute;
@@ -36,6 +35,52 @@
             span {
                 font-size: 2.6em;
             }
+        }
+
+        &-btn {
+            align-items: center;
+            background: var(--red);
+            border: 0.5em solid var(--red);
+            border-radius: 1em;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            height: 7.4em;
+            padding: 0 5em;
+            transition: background ease 0.2s;
+
+            &:hover {
+                background: transparent;
+            }
+
+            span {
+                font-size: 2.6em;
+            }
+
+            &-arrow {
+                height: 4.2em;
+                margin: 0 auto;
+                width: 12.2em;
+                cursor: pointer;
+                transition: transform 0.275s ease;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+
+                img {
+                    height: auto;
+                    position: relative;
+                    max-width: 100%;
+                }
+            }
+        }
+
+        &-buttons {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 2em 0 0 0;
         }
     }
 }

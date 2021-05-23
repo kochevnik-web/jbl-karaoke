@@ -8,6 +8,8 @@ import mobileStartTitle from './img/mobileStartTitle.png';
 import gameLocation0 from './img/gameLocation0.png';
 import elem1 from './img/elem1.png';
 import mess1 from './img/mess1.png';
+import mess2 from './img/mess2.png';
+import btnArrow from './img/btnArrow.png';
 
 const dataImages = [
     {
@@ -59,6 +61,16 @@ const dataImages = [
       id: 9,
       name: 'mess1',
       url: mess1
+    },
+    {
+      id: 10,
+      name: 'btnArrow',
+      url: btnArrow
+    },
+    {
+      id: 11,
+      name: 'mess2',
+      url: mess2
     },
 ];
 
