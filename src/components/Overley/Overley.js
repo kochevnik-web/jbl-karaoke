@@ -67,6 +67,7 @@ export default function Overley() {
                 clearTimeout(timout);
             }
         }
+    // eslint-disable-next-line
     }, [overAnimation]);
 
     const nextOverlay = () => {

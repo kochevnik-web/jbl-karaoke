@@ -7,7 +7,9 @@ import './Game.scss';
 
 export default function Game() {
 
-    const {IMAGES, level, yesno} = useContext(Context);
+
+    const {IMAGES, level, yesno, changeLevel} = useContext(Context);
+    console.log(level);
 
     const {bgImg, corect, nocorect} = levels[level];
 
@@ -18,7 +20,10 @@ export default function Game() {
 
     return (
         <div className="app-game">
-            <img className="app-game-bgimg top" src={IMAGES[id].url} alt={IMAGES[id].name}/>
+            <img className="app-game-bgimg" src={IMAGES[id].url} alt={IMAGES[id].name}/>
+            <div className="app-game-btn-next" onClick={changeLevel}>
+                <span>Далее</span>
+            </div>
         </div>
     )
 }
