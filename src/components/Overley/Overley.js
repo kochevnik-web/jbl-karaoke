@@ -8,14 +8,14 @@ import './Overley.scss';
 
 export default function Overley() {
 
-    const {IMAGES, setOverley, setYesNo} = useContext(Context);
+    const {IMAGES, setOverley, setYesNo, level} = useContext(Context);
 
     const [countOverley, setCoutnOverlaey] = useState(0);
     const [animation, setAnimation] = useState(0);
     const [overAnimation, setOverAnimation] = useState(false);
     const [check, setCheck] = useState(false);
 
-    const {style, idBg, content, typeBtn, variants} = data[countOverley];
+    const {style, idBg, content, typeBtn, variants} = data[level][countOverley];
 
     let refElem = useRef(null);
     let refWin = useRef(null);
@@ -31,7 +31,7 @@ export default function Overley() {
     }, []);
 
     useEffect(() => {
-        if(animation !== 0 && animation !== data.length) {
+        if(animation !== 0 && animation !== data[level].length) {
             gsap.to(refWin, {
                 duration: 0.5,
                 x: '-100%',

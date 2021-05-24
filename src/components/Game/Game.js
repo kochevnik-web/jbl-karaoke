@@ -7,9 +7,7 @@ import './Game.scss';
 
 export default function Game() {
 
-
     const {IMAGES, level, yesno, changeLevel} = useContext(Context);
-    console.log(level);
 
     const {bgImg, corect, nocorect} = levels[level];
 
