@@ -131,6 +131,10 @@ export default function Overley() {
                                         </div>
                                     )
                                 })}
+
+                                {variants.before && (
+                                    <span dangerouslySetInnerHTML={{__html: variants.before}}></span>
+                                )}
                             </div>
                         )}
 

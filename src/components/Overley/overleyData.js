@@ -23,7 +23,8 @@ const overleyData = [
                     {title: 'Затоплю ваши города', ans: true},
                     {title: 'Уроню всех ваших котят', ans: false},
                     {title: 'Упаду раз и навсегда', ans: false},
-                ]
+                ],
+                before: false
             }
         },
     ],
@@ -45,10 +46,34 @@ const overleyData = [
                     {title: 'ah', ans: false},
                     {title: 'duh', ans: true},
                     {title: 'shvah', ans: false},
-                ]
+                ],
+                before: false
             }
         },
-    ]
+    ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Наступает вечер, и гости просят медленный танец. Пройдемся по русской классике — спой «Выпускной» Басты (да так, чтобы все заплакали).</span>',
+            typeBtn: 'next',
+            style: {height: '42.6em', width: '91.8em'}
+        },
+        {
+            idBg: 11,
+            content: '<span><strong>Баста — «Выпускной»</strong><br>Медлячок, чтобы ты заплакала<br>И пусть звучат они все одинаково<br></span>',
+            typeBtn: 'variants',
+            style: {height: '67.8em', width: '69.3em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'И для тебя все это не знаково', ans: false},
+                    {title: 'И вовсе не новатор я', ans: false},
+                    {title: 'И пусть банально и не талантливо', ans: true},
+                ],
+                before: 'Но как сумел, на гитаре сыграл и спел'
+            }
+        },
+    ],
 ];
 
 export default overleyData;

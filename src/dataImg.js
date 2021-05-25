@@ -8,6 +8,9 @@ import mobileStartTitle from './img/mobileStartTitle.png';
 import gameLocation0 from './img/gameLocation0.png';
 import gameLocation01 from './img/gameLocation01.png';
 import gameLocation02 from './img/gameLocation02.png';
+import gameLocation1 from './img/gameLocation1.png';
+import gameLocation11 from './img/gameLocation11.png';
+import gameLocation12 from './img/gameLocation12.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
@@ -95,6 +98,21 @@ const dataImages = [
       id: 15,
       name: 'turn',
       url: turn
+    },
+    {
+      id: 16,
+      name: 'gameLocation1',
+      url: gameLocation1
+    },
+    {
+      id: 17,
+      name: 'gameLocation11',
+      url: gameLocation11
+    },
+    {
+      id: 18,
+      name: 'gameLocation12',
+      url: gameLocation12
     },
 ];
 
