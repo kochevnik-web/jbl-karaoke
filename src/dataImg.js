@@ -13,6 +13,7 @@ import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
 import mess4 from './img/mess4.png';
 import btnArrow from './img/btnArrow.png';
+import turn from './img/turn.png';
 
 const dataImages = [
     {
@@ -89,6 +90,11 @@ const dataImages = [
       id: 14,
       name: 'mess4',
       url: mess4
+    },
+    {
+      id: 15,
+      name: 'turn',
+      url: turn
     },
 ];
 

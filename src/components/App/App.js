@@ -5,6 +5,7 @@ import Start from '../Start/Start';
 import Game from '../Game/Game';
 import Overley from '../Overley/Overley';
 import Loader from '../Loader/Loader';
+import Turn from '../Turn/Turn';
 
 import './App.scss';
 
@@ -21,8 +22,14 @@ function App() {
             {imgsLoaded ? (
                 <>
                     {screen === 'start' && <Start />}
-                    {screen === 'game' && <Game />}
-                    {overley && <Overley />}
+                    {isMobale && screen !== 'start' ? (
+                        <Turn />
+                    ) : (
+                        <>
+                            {screen === 'game' && <Game />}
+                            {overley && <Overley />}
+                        </>
+                    )}
                 </>
             ) : (
                 <Loader />
