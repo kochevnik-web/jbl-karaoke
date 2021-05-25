@@ -74,6 +74,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Песня спета с душой, хоть и не везде было стопроцентное попадание в ноты. Но пора начинать энергичный дэнсинг, и, кажется, Валера хочет, чтобы ты еще раз продемонстрировал свое пение на английском. ABBA — то, что надо!</span>',
+            typeBtn: 'next',
+            style: {height: '44.4em', width: '91.8em'}
+        },
+        {
+            idBg: 19,
+            content: '<span><strong>ABBA — Dancing Queen</strong><br>You are the dancing queen<br>Young and sweet<br>Only seventeen<br>Dancing queen<br>Feel the beat from the tambourine, oh yeah<br>You can dance<br>You can jive<br></span>',
+            typeBtn: 'variants',
+            style: {height: '81.1em', width: '58.3em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'Having the time of your life', ans: true},
+                    {title: 'Winning this fight of your life', ans: false},
+                    {title: 'Dating with very strange guy', ans: false},
+                ],
+                before: false
+            }
+        },
+    ],
 ];
 
 export default overleyData;

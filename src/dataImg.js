@@ -11,10 +11,14 @@ import gameLocation02 from './img/gameLocation02.png';
 import gameLocation1 from './img/gameLocation1.png';
 import gameLocation11 from './img/gameLocation11.png';
 import gameLocation12 from './img/gameLocation12.png';
+import gameLocation2 from './img/gameLocation2.png';
+import gameLocation21 from './img/gameLocation21.png';
+import gameLocation22 from './img/gameLocation22.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
 import mess4 from './img/mess4.png';
+import mess5 from './img/mess5.png';
 import btnArrow from './img/btnArrow.png';
 import turn from './img/turn.png';
 
@@ -113,6 +117,26 @@ const dataImages = [
       id: 18,
       name: 'gameLocation12',
       url: gameLocation12
+    },
+    {
+      id: 19,
+      name: 'mess5',
+      url: mess5
+    },
+    {
+        id: 20,
+        name: 'gameLocation2',
+        url: gameLocation2
+    },
+    {
+        id: 21,
+        name: 'gameLocation21',
+        url: gameLocation21
+    },
+    {
+        id: 22,
+        name: 'gameLocation22',
+        url: gameLocation22
     },
 ];
 
