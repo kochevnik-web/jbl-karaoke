@@ -97,6 +97,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Ты зовешь к микрофону двух друзей. Что может быть лучше, чем хором кричать It’s my li-i-ife?</span>',
+            typeBtn: 'next',
+            style: {height: '42.6em', width: '91.8em'}
+        },
+        {
+            idBg: 11,
+            content: '<span><strong>Bon Jovi — It’s my life</strong><br>It’s my life<br>It’s now or never<br></span>',
+            typeBtn: 'variants',
+            style: {height: '67.5em', width: '58.1em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'But I don’t like rainy weather', ans: false},
+                    {title: 'But I ain’t gonna live forever', ans: true},
+                    {title: 'But I need to be more clever', ans: false},
+                ],
+                before: 'I just want to live while I’m alive'
+            }
+        },
+    ],
 ];
 
 export default overleyData;

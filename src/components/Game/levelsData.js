@@ -19,6 +19,11 @@ const levels = [
         corect: 21,
         nocorect: 22,
     },
+    {
+        bgImg: 23,
+        corect: 23,
+        nocorect: 24,
+    },
 ];
 
 export default levels;
