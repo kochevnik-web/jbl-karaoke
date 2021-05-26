@@ -16,6 +16,8 @@ import gameLocation21 from './img/gameLocation21.png';
 import gameLocation22 from './img/gameLocation22.png';
 import gameLocation3 from './img/gameLocation3.png';
 import gameLocation32 from './img/gameLocation32.png';
+import gameLocation4 from './img/gameLocation4.png';
+import gameLocation41 from './img/gameLocation41.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
@@ -149,6 +151,16 @@ const dataImages = [
         id: 24,
         name: 'gameLocation32',
         url: gameLocation32
+    },
+    {
+        id: 25,
+        name: 'gameLocation4',
+        url: gameLocation4
+    },
+    {
+        id: 26,
+        name: 'gameLocation41',
+        url: gameLocation41
     },
 ];
 

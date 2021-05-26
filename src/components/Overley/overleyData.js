@@ -120,6 +120,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Яркое световое шоу от JBL PartyBox On-The-Go добавило драйва и веселья происходящему (кстати, функционал устройства позволяет настраивать цвета и эффекты). После такой песни нужно повторить что-то мотивирующее. И всем знакомое!</span>',
+            typeBtn: 'next',
+            style: {height: '44.6em', width: '91.8em'}
+        },
+        {
+            idBg: 14,
+            content: '<span><strong>Ария — «Я свободен»</strong><br>Я бы мог с тобою быть<br>Я бы мог про все забыть<br>Я бы мог тебя любить<br>Но это лишь игра<br>В шуме ветра за спиной<br></span>',
+            typeBtn: 'variants',
+            style: {height: '74.7em', width: '57.3em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'Я забуду позывной', ans: false},
+                    {title: 'Я не жду любви иной', ans: false},
+                    {title: 'Я забуду голос твой', ans: true},
+                ],
+                before: false
+            }
+        },
+    ],
 ];
 
 export default overleyData;
