@@ -19,15 +19,14 @@ export default function ContextProvider({ children }) {
     }
 
     const [em, setEm] = useState(getEm());
-    const [screen, setScreen] = useState('game');//start / game / final
+    const [screen, setScreen] = useState('start');//start / game / final
     const [level, setLevel] = useState(0); //0 //5
     const [yesno, setYesNo] = useState(null);
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
     const [overley, setOverley] = useState(false); //false
-    const [result, setResult] = useState(0); //false
-    const [scale, setScale] = useState([true, false, false, false, false, false, false, false, false, false]);
+    const [scale, setScale] = useState([false, false, false, false, false, false, false, false, false, false]);
 
     useEffect(() => {
         let timer = null;
@@ -82,7 +81,7 @@ export default function ContextProvider({ children }) {
     }
 
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo, changeLevel, result, setResult, scale, setScale }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo, changeLevel, scale, setScale }}>
         {children}
         </Context.Provider>
     );
