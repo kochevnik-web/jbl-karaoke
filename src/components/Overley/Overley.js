@@ -8,7 +8,7 @@ import './Overley.scss';
 
 export default function Overley() {
 
-    const {IMAGES, setOverley, setYesNo, level} = useContext(Context);
+    const {IMAGES, setOverley, setYesNo, level, result, setResult} = useContext(Context);
 
     const [countOverley, setCoutnOverlaey] = useState(0);
     const [animation, setAnimation] = useState(0);
@@ -61,6 +61,9 @@ export default function Overley() {
 
             let timout = setTimeout(() => {
                 setOverley(false);
+                if(variants.data[check].ans) {
+                    setResult(result + 1);
+                }
                 setYesNo(variants.data[check].ans);
             }, 1600);
 
