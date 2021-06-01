@@ -25,6 +25,7 @@ import mess4 from './img/mess4.png';
 import mess5 from './img/mess5.png';
 import btnArrow from './img/btnArrow.png';
 import turn from './img/turn.png';
+import scale from './img/scale.png';
 
 const dataImages = [
     {
@@ -161,6 +162,11 @@ const dataImages = [
         id: 26,
         name: 'gameLocation41',
         url: gameLocation41
+    },
+    {
+        id: 27,
+        name: 'scale',
+        url: scale
     },
 ];
 

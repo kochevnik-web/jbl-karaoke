@@ -1,0 +1,21 @@
+.app-scale {
+    height: 47.2em;
+    position: absolute;
+    right: 2.7em;
+    top: 2.7em;
+    width: 14.4em;
+    z-index: 2;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    &-wrap {
+        left: 50%;
+        position: absolute;
+        top: 8.3em;
+        transform: translateX(-50%);
+        width: 10.8em;
+    }
+}

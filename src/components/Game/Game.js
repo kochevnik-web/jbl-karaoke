@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import {Context} from '../../context';
 
 import levels from './levelsData';
+import Scale from '../Scale/Scale';
 
 import './Game.scss';
 
@@ -24,6 +25,7 @@ export default function Game() {
                     <span>Далее</span>
                 </div>
             )}
+            <Scale />
         </div>
     )
 }
