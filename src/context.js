@@ -19,13 +19,13 @@ export default function ContextProvider({ children }) {
     }
 
     const [em, setEm] = useState(getEm());
-    const [screen, setScreen] = useState('start');//start / game / final
+    const [screen, setScreen] = useState('game');//start / game / final
     const [level, setLevel] = useState(0); //0 //5
     const [yesno, setYesNo] = useState(null);
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
-    const [overley, setOverley] = useState(false); //false
+    const [overley, setOverley] = useState(true); //false
 
     useEffect(() => {
         let timer = null;
@@ -78,18 +78,6 @@ export default function ContextProvider({ children }) {
         setOverley(true);
         setLevel(level + 1);
     }
-
-    useEffect(()=>{
-        if(overley) {
-            document.body.style.position = 'fixed';
-            document.body.style.overflow = 'hidden';
-            document.body.style.height = '100vh';
-        } else {
-            document.body.style.position = null;
-            document.body.style.overflow = null;
-            document.body.style.height = null;
-        }
-    },[overley]);
 
     return (
         <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo, changeLevel }}>
