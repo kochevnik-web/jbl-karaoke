@@ -11,12 +11,15 @@ export default function Game() {
 
     const {IMAGES, level, yesno, changeLevel, overley, globalHeight} = useContext(Context);
 
-    const {bgImg, corect, nocorect, animate} = levels[level];
+    const {bgImg, corect, nocorect, animatePlus, animateMinus} = levels[level];
 
     let id = bgImg;
+    let animate = [];
 
-    if(yesno === true) id = corect;
-    if(yesno === false) id = nocorect;
+    if(yesno !== null){
+        animate = yesno ? animatePlus : animateMinus;
+        id = yesno ? corect : nocorect;
+    }
 
     return (
         <div className="app-game" style={{height: globalHeight}}>

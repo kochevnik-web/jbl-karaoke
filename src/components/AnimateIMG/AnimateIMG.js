@@ -3,7 +3,7 @@ import {Context} from '../../context';
 
 import './AnimateIMG.scss';
 
-export default function AnimateIMG({animate}) {
+export default function AnimateIMG({animate = []}) {
 
     const {IMAGES} = useContext(Context);
 

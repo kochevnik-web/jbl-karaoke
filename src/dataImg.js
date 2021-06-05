@@ -29,6 +29,11 @@ import scale from './img/scale.png';
 import gif1 from './img/gif1.gif';
 import gif2 from './img/gif2.gif';
 import gif3 from './img/gif3.png';
+import gif4 from './img/gif4.gif';
+import gif5 from './img/gif5.gif';
+import gif6 from './img/gif6.gif';
+import gif7 from './img/gif7.gif';
+import gif8 from './img/gif8.gif';
 
 const dataImages = [
     {
@@ -185,6 +190,31 @@ const dataImages = [
         id: 30,
         name: 'gif3',
         url: gif3
+    },
+    {
+        id: 31,
+        name: 'gif4',
+        url: gif4
+    },
+    {
+        id: 32,
+        name: 'gif5',
+        url: gif5
+    },
+    {
+        id: 33,
+        name: 'gif6',
+        url: gif6
+    },
+    {
+        id: 34,
+        name: 'gif7',
+        url: gif7
+    },
+    {
+        id: 35,
+        name: 'gif8',
+        url: gif8
     },
 ];
 
