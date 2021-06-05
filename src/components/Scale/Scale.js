@@ -5,7 +5,11 @@ import './Scale.scss';
 
 export default function Scale() {
 
-    const {IMAGES, scale} = useContext(Context);
+    const {IMAGES, result} = useContext(Context);
+
+    const yes = [...Array(result).fill(true)];
+    const no = [...Array(10 - result).fill(false)];
+    const scale = [...yes, ...no];
 
     const scaleElements = scale.map((el, indx) => {
         let arr = [...Array(11).keys()];
