@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jbl-karaoke/static/css/main.7a01d983.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.242d0010.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.242d0010.chunk.js.map",
+    "main.js": "/jbl-karaoke/static/js/main.2aa85219.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.2aa85219.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.6393ef39.chunk.js": "/jbl-karaoke/static/js/2.6393ef39.chunk.js",
@@ -22,11 +22,14 @@
     "static/media/gameLocation2.eda9df4a.png": "/jbl-karaoke/static/media/gameLocation2.eda9df4a.png",
     "static/media/gameLocation21.eda9df4a.png": "/jbl-karaoke/static/media/gameLocation21.eda9df4a.png",
     "static/media/gameLocation22.52de7ffb.png": "/jbl-karaoke/static/media/gameLocation22.52de7ffb.png",
-    "static/media/gameLocation3.e47d9499.png": "/jbl-karaoke/static/media/gameLocation3.e47d9499.png",
-    "static/media/gameLocation32.365e421b.png": "/jbl-karaoke/static/media/gameLocation32.365e421b.png",
+    "static/media/gameLocation3.c9ef2132.png": "/jbl-karaoke/static/media/gameLocation3.c9ef2132.png",
+    "static/media/gameLocation31.b33a977a.png": "/jbl-karaoke/static/media/gameLocation31.b33a977a.png",
+    "static/media/gameLocation32.017da01c.png": "/jbl-karaoke/static/media/gameLocation32.017da01c.png",
     "static/media/gameLocation4.cf2ad44a.png": "/jbl-karaoke/static/media/gameLocation4.cf2ad44a.png",
     "static/media/gameLocation41.039e599b.png": "/jbl-karaoke/static/media/gameLocation41.039e599b.png",
     "static/media/gif1.fe24cd5e.gif": "/jbl-karaoke/static/media/gif1.fe24cd5e.gif",
+    "static/media/gif10.eb86ec3d.gif": "/jbl-karaoke/static/media/gif10.eb86ec3d.gif",
+    "static/media/gif11.287a6e1d.png": "/jbl-karaoke/static/media/gif11.287a6e1d.png",
     "static/media/gif2.8b357841.gif": "/jbl-karaoke/static/media/gif2.8b357841.gif",
     "static/media/gif3.cbfbe279.png": "/jbl-karaoke/static/media/gif3.cbfbe279.png",
     "static/media/gif4.5e228e7a.gif": "/jbl-karaoke/static/media/gif4.5e228e7a.gif",
@@ -34,6 +37,7 @@
     "static/media/gif6.ba80e1cf.gif": "/jbl-karaoke/static/media/gif6.ba80e1cf.gif",
     "static/media/gif7.257da08c.gif": "/jbl-karaoke/static/media/gif7.257da08c.gif",
     "static/media/gif8.e383d234.gif": "/jbl-karaoke/static/media/gif8.e383d234.gif",
+    "static/media/gif9.8bded7ba.gif": "/jbl-karaoke/static/media/gif9.8bded7ba.gif",
     "static/media/left.78b44509.png": "/jbl-karaoke/static/media/left.78b44509.png",
     "static/media/mess1.a3ca3684.png": "/jbl-karaoke/static/media/mess1.a3ca3684.png",
     "static/media/mess2.1fd056a4.png": "/jbl-karaoke/static/media/mess2.1fd056a4.png",
@@ -49,6 +53,6 @@
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.6393ef39.chunk.js",
     "static/css/main.7a01d983.chunk.css",
-    "static/js/main.242d0010.chunk.js"
+    "static/js/main.2aa85219.chunk.js"
   ]
 }
