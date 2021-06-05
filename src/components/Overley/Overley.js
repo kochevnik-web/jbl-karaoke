@@ -8,7 +8,7 @@ import './Overley.scss';
 
 export default function Overley() {
 
-    const {IMAGES, setOverley, setYesNo, level, result, setResult} = useContext(Context);
+    const {IMAGES, setOverley, setYesNo, level, result, setResult, globalHeight} = useContext(Context);
 
     const [countOverley, setCoutnOverlaey] = useState(0);
     const [animation, setAnimation] = useState(0);
@@ -90,7 +90,7 @@ export default function Overley() {
     }
 
     return (
-        <div className="overlay" ref={el => (refElem = el)}>
+        <div className="overlay" ref={el => (refElem = el)} style={{height: globalHeight}}>
             <div className="overlay-message" ref={el => (refWin = el)} style={style}>
                 <img src={IMAGES[idBg].url} alt={IMAGES[idBg].name}/>
                 <div className="overlay-content">

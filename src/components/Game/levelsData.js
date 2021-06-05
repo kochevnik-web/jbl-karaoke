@@ -1,8 +1,13 @@
 const levels = [
     {
         bgImg: 7,
-        corect: 7,
-        nocorect: 7,
+        corect: 12,
+        nocorect: 12,
+        animate: [
+            {id: 28, style: {left: '33.7em', top: '18.3em', width: '22.9em', height: '42.1em'}},
+            {id: 29, style: {left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em'}},
+            {id: 30, style: {left: '132.9em', top: '24.1em', width: '20.2em', height: '56.2em'}},
+        ]
     },
     {
         bgImg: 7,

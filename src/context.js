@@ -18,7 +18,12 @@ export default function ContextProvider({ children }) {
         return window.innerWidth < window.innerHeight && window.innerWidth < 768 ? true : false;
     }
 
+    function getHeight() {
+        return window.innerWidth / 2.17;
+    }
+
     const [em, setEm] = useState(getEm());
+    const [globalHeight, setGlobalHeight] = useState(getHeight());
     const [screen, setScreen] = useState('start');//start / game / final
     const [level, setLevel] = useState(0); //0 //5
     const [yesno, setYesNo] = useState(null);
@@ -62,6 +67,7 @@ export default function ContextProvider({ children }) {
     useEffect(()=>{
         setEm(getEm());
         setIsMobale(getIsMobile());
+        setGlobalHeight(getHeight());
     },[]);
 
     const startGame = () => {
@@ -72,6 +78,7 @@ export default function ContextProvider({ children }) {
     window.addEventListener('resize', () =>{
         setEm(getEm());
         setIsMobale(getIsMobile());
+        setGlobalHeight(getHeight());
     });
 
     const changeLevel = () => {
@@ -81,7 +88,7 @@ export default function ContextProvider({ children }) {
     }
 
     return (
-        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo, changeLevel, result, setResult }}>
+        <Context.Provider value={{ IMAGES, em, isMobale, imgsLoaded, countLoaded, screen, startGame, overley, setOverley, level, yesno, setYesNo, changeLevel, result, setResult, globalHeight }}>
         {children}
         </Context.Provider>
     );

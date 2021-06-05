@@ -26,6 +26,9 @@ import mess5 from './img/mess5.png';
 import btnArrow from './img/btnArrow.png';
 import turn from './img/turn.png';
 import scale from './img/scale.png';
+import gif1 from './img/gif1.gif';
+import gif2 from './img/gif2.gif';
+import gif3 from './img/gif3.png';
 
 const dataImages = [
     {
@@ -167,6 +170,21 @@ const dataImages = [
         id: 27,
         name: 'scale',
         url: scale
+    },
+    {
+        id: 28,
+        name: 'gif1',
+        url: gif1
+    },
+    {
+        id: 29,
+        name: 'gif2',
+        url: gif2
+    },
+    {
+        id: 30,
+        name: 'gif3',
+        url: gif3
     },
 ];
 
