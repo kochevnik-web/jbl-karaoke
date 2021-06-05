@@ -15,7 +15,7 @@ export default function Scale() {
         let arr = [...Array(11).keys()];
 
         let result = arr.map((s, i) => {
-            return (<rect x={i * 10 + 7} y={indx * 31} width="25" height="7" rx="2" transform={'rotate(90 ' + (i * 10 + 7) +  ' ' + (indx * 31) + ')'} fill={el ? 'red' : 'white'}/>);
+            return (<rect key={(indx + "") + (i + "")} x={i * 10 + 7} y={indx * 31} width="25" height="7" rx="2" transform={'rotate(90 ' + (i * 10 + 7) +  ' ' + (indx * 31) + ')'} fill={el ? 'red' : 'white'}/>);
         });
         return result;
     });
