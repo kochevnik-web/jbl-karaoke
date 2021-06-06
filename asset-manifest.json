@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jbl-karaoke/static/css/main.f21d8191.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.d6ffebcf.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.d6ffebcf.chunk.js.map",
+    "main.js": "/jbl-karaoke/static/js/main.96c87f70.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.96c87f70.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.6393ef39.chunk.js": "/jbl-karaoke/static/js/2.6393ef39.chunk.js",
@@ -38,6 +38,9 @@
     "static/media/gameLocation7.5b9fb9bf.png": "/jbl-karaoke/static/media/gameLocation7.5b9fb9bf.png",
     "static/media/gameLocation71.56084c94.png": "/jbl-karaoke/static/media/gameLocation71.56084c94.png",
     "static/media/gameLocation72.5e0ccefb.png": "/jbl-karaoke/static/media/gameLocation72.5e0ccefb.png",
+    "static/media/gameLocation8.4eda77ca.png": "/jbl-karaoke/static/media/gameLocation8.4eda77ca.png",
+    "static/media/gameLocation81.60dfd6e4.png": "/jbl-karaoke/static/media/gameLocation81.60dfd6e4.png",
+    "static/media/gameLocation82.648190ae.png": "/jbl-karaoke/static/media/gameLocation82.648190ae.png",
     "static/media/gif1.fe24cd5e.gif": "/jbl-karaoke/static/media/gif1.fe24cd5e.gif",
     "static/media/gif10.eb86ec3d.gif": "/jbl-karaoke/static/media/gif10.eb86ec3d.gif",
     "static/media/gif11.287a6e1d.png": "/jbl-karaoke/static/media/gif11.287a6e1d.png",
@@ -55,6 +58,7 @@
     "static/media/gif22.584d0e1e.gif": "/jbl-karaoke/static/media/gif22.584d0e1e.gif",
     "static/media/gif23.16a19a49.png": "/jbl-karaoke/static/media/gif23.16a19a49.png",
     "static/media/gif24.6048091a.gif": "/jbl-karaoke/static/media/gif24.6048091a.gif",
+    "static/media/gif25.14fb2fc8.gif": "/jbl-karaoke/static/media/gif25.14fb2fc8.gif",
     "static/media/gif3.cbfbe279.png": "/jbl-karaoke/static/media/gif3.cbfbe279.png",
     "static/media/gif4.5e228e7a.gif": "/jbl-karaoke/static/media/gif4.5e228e7a.gif",
     "static/media/gif5.635b5506.gif": "/jbl-karaoke/static/media/gif5.635b5506.gif",
@@ -78,6 +82,6 @@
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.6393ef39.chunk.js",
     "static/css/main.f21d8191.chunk.css",
-    "static/js/main.d6ffebcf.chunk.js"
+    "static/js/main.96c87f70.chunk.js"
   ]
 }
