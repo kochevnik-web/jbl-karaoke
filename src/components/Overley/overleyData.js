@@ -143,6 +143,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Песня о любви вызвала бурю эмоций. Окончательно распалить чувства гостей можно хитом, который цепляет даже крепких парней. Уверены: такую песню вы будете горланить все вместе — а поможет вам в этом дополнительный микрофон, который можно докупить к JBL PartyBox On-The-Go.</span>',
+            typeBtn: 'next',
+            style: {height: '48.7em', width: '91.8em'}
+        },
+        {
+            idBg: 11,
+            content: '<span><strong>МакSим — «Знаешь ли ты»</strong><br>Знаешь ли ты?<br>Вдоль ночных дорог шла<br>босиком не жалея ног<br>Сердце его теперь в твоих руках<br></span>',
+            typeBtn: 'variants',
+            style: {height: '72em', width: '65.4em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'Не потеряй его и не сломай', ans: true},
+                    {title: 'Не раскисай, смотри, и не рыдай', ans: false},
+                    {title: 'Не потеряй его, он попугай', ans: false},
+                ],
+                before: false
+            }
+        },
+    ],
 ];
 
 export default overleyData;

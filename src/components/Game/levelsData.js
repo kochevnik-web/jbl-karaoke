@@ -65,7 +65,7 @@ const levels = [
             {id: 29, style: {left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em'}},//Парень с рюкзаком
             {id: 40, style: {left: '121em', top: '25.6em', width: '20.4em', height: '44.1em'}},//Девушка с микрофоном JBL
             {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
-            {id: 37, style: {left: '45.1em', top: '30em', width: '37.6em', height: '57.4em'}},//Тансующая пара
+            {id: 37, style: {left: '45.1em', top: '30em', width: '37.6em', height: '57.4em'}},//Танцующая пара
             {id: 34, style: {left: '100em', top: '31.9em', width: '27.9em', height: '55.5em'}}, //Девушка в зеленом платье
             {id: 31, style: {left: '59.2em', top: '11.8em', width: '11.8em', height: '6em'}}, //Колонка
         ],
@@ -121,6 +121,26 @@ const levels = [
             {id: 53, style: {left: '97.9em', top: '50.3em', width: '19.6em', height: '15.2em'}}, //Пицца на столе не gif
             {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
             {id: 54, style: {left: '118.9em', top: '31.7em', width: '18em', height: '54.1em'}}, //Девушка спиной в штанах
+        ]
+    },
+    {
+        bgImg: 55,
+        corect: 56,
+        nocorect: 57,
+        animatePlus: [
+            {id: 28, style: {left: '39.2em', top: '18.4em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 29, style: {left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em'}},//Парень с рюкзаком
+            {id: 31, style: {left: '75.9em', top: '54.7em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+            {id: 37, style: {left: '45.1em', top: '30em', width: '37.6em', height: '57.4em'}},//Танцующая пара
+            {id: 34, style: {left: '103em', top: '31.9em', width: '27.9em', height: '55.5em'}}, //Девушка в зеленом платье
+        ],
+        animateMinus: [
+            {id: 29, style: {left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em'}},//Парень с рюкзаком
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 31, style: {left: '90.6em', top: '55.9em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 58, style: {left: '25.3em', top: '31.2em', width: '30.9em', height: '49.4em'}}, //Пара медленный танец
         ]
     },
 ];
