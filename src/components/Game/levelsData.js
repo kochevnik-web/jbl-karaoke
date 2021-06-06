@@ -164,6 +164,26 @@ const levels = [
             {id: 64, style: {left: '29.1em', top: '24.4em', width: '17.1em', height: '59.4em'}}, //Девушка с поднятой рукой
         ]
     },
+    {
+        bgImg: 65,
+        corect: 66,
+        nocorect: 67,
+        animatePlus: [
+            {id: 28, style: {left: '39.2em', top: '18.4em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 31, style: {left: '75.9em', top: '54.7em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+            {id: 37, style: {left: '45.1em', top: '30em', width: '37.6em', height: '57.4em'}},//Танцующая пара
+            {id: 34, style: {left: '85.9em', top: '31.77em', width: '27.9em', height: '55.5em'}}, //Девушка в зеленом платье
+            {id: 54, style: {left: '117em', top: '29em', width: '18em', height: '53.7em'}}, //Девушка спиной в штанах
+        ],
+        animateMinus: [
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 31, style: {left: '92.8em', top: '55.3em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 49, style: {left: '4.1em', top: '31.3em', width: '41.9em', height: '55.1em'}}, //Девушка в свитере
+            {id: 68, style: {left: '126.4em', top: '27.9em', width: '19.4em', height: '53.2em'}}, //Подозрительный чел
+        ]
+    },
 ];
 
 export default levels;

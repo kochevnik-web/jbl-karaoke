@@ -90,7 +90,7 @@ export default function Overley() {
     }
 
     return (
-        <div className="overlay" ref={el => (refElem = el)} style={{height: globalHeight}}>
+        <div className="overlay" ref={el => (refElem = el)} style={{height: globalHeight + 4}}>
             <div className="overlay-message" ref={el => (refWin = el)} style={style}>
                 <img src={IMAGES[idBg].url} alt={IMAGES[idBg].name}/>
                 <div className="overlay-content">

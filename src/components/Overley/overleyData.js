@@ -189,6 +189,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Фото и видео с вечеринки уже в соцсетях, а в твоем профиле добавилось подписчиков. Но, послушай, ты уже давно игнорируешь товарища, который просит спеть классику. Не обижай его и Фредди Меркьюри! С функцией Bass Boost, добавляющей мощных и раскатистых басов, получится достойно исполнить даже такую сложную композицию.</span>',
+            typeBtn: 'next',
+            style: {height: '52.8em', width: '92.2em'}
+        },
+        {
+            idBg: 14,
+            content: "<span><strong>Queen — We are the champions</strong><br>We are the champions, my friends<br>And we'll keep on fighting till the end<br>We are the champions<br>We are the champions<br></span>",
+            typeBtn: 'variants',
+            style: {height: '77.7em', width: '65.5em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'We love our users', ans: false},
+                    {title: 'No more abusers', ans: false},
+                    {title: 'No time for losers', ans: true},
+                ],
+                before: "'Cause we are the champions of the World"
+            }
+        },
+    ],
 ];
 
 export default overleyData;

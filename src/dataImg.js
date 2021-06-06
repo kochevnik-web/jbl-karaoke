@@ -30,6 +30,9 @@ import gameLocation62 from './img/gameLocation62.png';
 import gameLocation7 from './img/gameLocation7.png';
 import gameLocation71 from './img/gameLocation71.png';
 import gameLocation72 from './img/gameLocation72.png';
+import gameLocation8 from './img/gameLocation8.png';
+import gameLocation81 from './img/gameLocation81.png';
+import gameLocation82 from './img/gameLocation82.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
@@ -63,6 +66,7 @@ import gif21 from './img/gif21.gif';
 import gif22 from './img/gif22.gif';
 import gif23 from './img/gif23.png';
 import gif24 from './img/gif24.gif';
+import gif25 from './img/gif25.gif';
 
 const dataImages = [
     {
@@ -389,6 +393,26 @@ const dataImages = [
         id: 64,
         name: 'gif24',
         url: gif24
+    },
+    {
+        id: 65,
+        name: 'gameLocation8',
+        url: gameLocation8
+    },
+    {
+        id: 66,
+        name: 'gameLocation81',
+        url: gameLocation81
+    },
+    {
+        id: 67,
+        name: 'gameLocation82',
+        url: gameLocation82
+    },
+    {
+        id: 68,
+        name: 'gif25',
+        url: gif25
     },
 ];
 
