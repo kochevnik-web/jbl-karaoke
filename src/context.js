@@ -25,13 +25,13 @@ export default function ContextProvider({ children }) {
 
     const [em, setEm] = useState(getEm());
     const [globalHeight, setGlobalHeight] = useState(getHeight());
-    const [screen, setScreen] = useState('game');//start / game / final
-    const [level, setLevel] = useState(5); //0 //5
+    const [screen, setScreen] = useState('start');//start / game / final
+    const [level, setLevel] = useState(0); //0 //6
     const [yesno, setYesNo] = useState(null);
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
-    const [overley, setOverley] = useState(true); //false
+    const [overley, setOverley] = useState(false); //false
     const [result, setResult] = useState(0);
 
     useEffect(() => {

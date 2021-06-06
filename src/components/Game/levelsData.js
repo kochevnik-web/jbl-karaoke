@@ -102,13 +102,26 @@ const levels = [
     },
     {
         bgImg: 47,
-        corect: 47,
-        nocorect: 47,
+        corect: 51,
+        nocorect: 52,
         animatePlus: [
-            {id: 28, style: {left: '39.5em', top: '18.4em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
+            {id: 28, style: {left: '39.2em', top: '18.4em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
             {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
-            {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+            {id: 32, style: {left: '6.3em', top: '23.4em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+            {id: 31, style: {left: '75.9em', top: '54.7em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 49, style: {left: '6em', top: '31.7em', width: '41.9em', height: '55.1em'}}, //Девушка в свитере
+            {id: 50, style: {left: '55.3em', top: '33.1em', width: '25.9em', height: '54.8em'}}, //Девушка коряга
+            {id: 35, style: {left: '97.2em', top: '27.1em', width: '31em', height: '60em'}}, //Девушка с микрофоном в розовой
         ],
+        animateMinus: [
+            {id: 28, style: {left: '39.4em', top: '18.5em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
+            {id: 29, style: {left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em'}},//Парень с рюкзаком
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 31, style: {left: '85em', top: '55.2em', width: '15.8em', height: '8.1em'}}, //Колонка
+            {id: 53, style: {left: '97.9em', top: '50.3em', width: '19.6em', height: '15.2em'}}, //Пицца на столе не gif
+            {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+            {id: 54, style: {left: '118.9em', top: '31.7em', width: '18em', height: '54.1em'}}, //Девушка спиной в штанах
+        ]
     },
 ];
 

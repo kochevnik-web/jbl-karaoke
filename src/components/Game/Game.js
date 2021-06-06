@@ -23,7 +23,7 @@ export default function Game() {
 
     return (
         <div className="app-game" style={{height: globalHeight}}>
-            <img className="app-game-floor" src={IMAGES[48].url} alt={IMAGES[48].name}/>
+            {level > 4 && <img className="app-game-floor" src={IMAGES[48].url} alt={IMAGES[48].name}/>}
             <img className="app-game-bgimg" src={IMAGES[id].url} alt={IMAGES[id].name}/>
             {!overley && <AnimateIMG animate={animate} />}
             {!overley && (
