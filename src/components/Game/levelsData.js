@@ -101,9 +101,14 @@ const levels = [
         ]
     },
     {
-        bgImg: 25,
-        corect: 25,
-        nocorect: 26,
+        bgImg: 47,
+        corect: 47,
+        nocorect: 47,
+        animatePlus: [
+            {id: 28, style: {left: '39.5em', top: '18.4em', width: '22.9em', height: '42.1em'}},//Парень в розовой рубашке
+            {id: 31, style: {left: '59.2em', top: '3.5em', width: '11.8em', height: '6em'}}, //Колонка
+            {id: 32, style: {left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em'}}, //Девушка спиной
+        ],
     },
 ];
 

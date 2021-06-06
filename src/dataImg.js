@@ -4,6 +4,7 @@ import bgBalls from './img/bgBalls.png';
 import jblLogo from './img/jblLogo.png';
 import startTitle from './img/startTitle.png';
 import discoBall from './img/discoBall.png';
+import floor from './img/floor.png';
 import mobileStartTitle from './img/mobileStartTitle.png';
 import gameLocation0 from './img/gameLocation0.png';
 import gameLocation01 from './img/gameLocation01.png';
@@ -20,6 +21,7 @@ import gameLocation32 from './img/gameLocation32.png';
 import gameLocation4 from './img/gameLocation4.png';
 import gameLocation41 from './img/gameLocation41.png';
 import gameLocation42 from './img/gameLocation42.png';
+import gameLocation5 from './img/gameLocation5.png';
 import mess1 from './img/mess1.png';
 import mess2 from './img/mess2.png';
 import mess3 from './img/mess3.png';
@@ -281,6 +283,16 @@ const dataImages = [
         id: 46,
         name: 'gameLocation42',
         url: gameLocation42
+    },
+    {
+        id: 47,
+        name: 'gameLocation5',
+        url: gameLocation5
+    },
+    {
+        id: 48,
+        name: 'floor',
+        url: floor
     },
 ];
 
