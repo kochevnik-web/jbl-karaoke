@@ -28,7 +28,7 @@ export default function Game() {
             {!overley && <AnimateIMG animate={animate} />}
             {!overley && (
                 <div className="app-game-btn-next" onClick={changeLevel}>
-                    <span>Далее</span>
+                    <span>{level === 9 ? 'Узнать результат' : 'Далее'}</span>
                 </div>
             )}
             <Scale />

@@ -30,10 +30,11 @@
         justify-content: center;
         line-height: 1;
         left: 83.5em;
+        min-width: 22.4em;
+        padding: 0 2em;
         position: absolute;
         transition: box-shadow 0.2s ease, color 0.2s ease;
         top: 68.6em;
-        width: 22.4em;
         z-index: 2;
 
         &:hover {

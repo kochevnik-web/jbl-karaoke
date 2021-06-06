@@ -212,6 +212,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Гости забрали микрофон и выкрикивают какие-то слова: «...огонька», «...крылышки». В чем дело? Они проголодались или хотят спеть песню?</span>',
+            typeBtn: 'next',
+            style: {height: '42.6em', width: '92.2em'}
+        },
+        {
+            idBg: 69,
+            content: "<span><strong>Валерий Меладзе — Самба<br>белого мотылька</strong><br>Ты так любила яркие цветы<br>Что по ним как бабочка порхала<br>И даря поклонникам мечты<br></span>",
+            typeBtn: 'variants',
+            style: {height: '70.6em', width: '63.6em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'Сердца никому не обещала', ans: true},
+                    {title: 'Много всего в жизни повидала', ans: false},
+                    {title: 'Каждого отдельно целовала', ans: false},
+                ],
+                before: null
+            }
+        },
+    ],
 ];
 
 export default overleyData;
