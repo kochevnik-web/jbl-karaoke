@@ -166,6 +166,29 @@ const overleyData = [
             }
         },
     ],
+    [
+        {
+            idBg: 10,
+            content: '<span>Пришла пора возвращаться к веселому репертуару, а то Вероника уже набирает СМС бывшему парню. Отвлечем ее зажигательными танцами — это можно выложить в тик-ток!</span>',
+            typeBtn: 'next',
+            style: {height: '45.2em', width: '91.8em'}
+        },
+        {
+            idBg: 59,
+            content: '<span><strong>Boney M — Rasputin</strong><br>Ra ra Rasputin<br></span>',
+            typeBtn: 'variants',
+            style: {height: '73.7em', width: '65.5em'},
+            variants: {
+                vertical: true,
+                data: [
+                    {title: 'Mnogo nas, a on odin', ans: false},
+                    {title: 'Lover of the Russian queen', ans: true},
+                    {title: 'Very famous gospodin', ans: false},
+                ],
+                before: "They didn't quit, they wanted his head<br>Ra ra Rasputin<br>Russia's greatest love machine"
+            }
+        },
+    ],
 ];
 
 export default overleyData;
