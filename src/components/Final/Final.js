@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {Context} from '../../context';
 import { useSpring, animated } from 'react-spring';
+import Shers from '../Shers/Shers';
 
 import Logo from '../Logo/Logo';
 import './Final.scss';
@@ -51,6 +52,7 @@ export default function Final() {
                     </div>
                 </div>
             </div>
+            <Shers />
         </div>
     )
 }

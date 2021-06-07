@@ -1,0 +1,51 @@
+.Shers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 145em;
+
+    .share-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 7.3em;
+        height: 7.3em;
+        margin: 0 0 1em 0;
+        border-radius: 1em;
+
+        &:hover {
+            background: #014990;
+        }
+    }
+
+    .share-btn-vk {
+        background: #305c99;
+
+        svg {
+            width: 5.1em;
+            height: 3em;
+        }
+    }
+
+    .share-btn-tw {
+        background: #00cdff;
+
+        svg {
+            width: 4.8em;
+            height: 3.8em;
+        }
+    }
+
+    .share-btn-fb {
+        background: #567ca4;
+
+        svg {
+            width: 2.4em;
+            height: 5em;
+        }
+    }
+}
