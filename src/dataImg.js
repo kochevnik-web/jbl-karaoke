@@ -73,6 +73,9 @@ import gif24 from './img/gif24.gif';
 import gif25 from './img/gif25.gif';
 import gif26 from './img/gif26.gif';
 import gif27 from './img/gif27.gif';
+import final1 from './img/final1.png';
+import finalballs from './img/finalballs.png';
+import finalbg from './img/finalbg.png';
 
 const dataImages = [
     {
@@ -449,6 +452,21 @@ const dataImages = [
         id: 74,
         name: 'gif27',
         url: gif27
+    },
+    {
+        id: 75,
+        name: 'final1',
+        url: final1
+    },
+    {
+        id: 76,
+        name: 'finalballs',
+        url: finalballs
+    },
+    {
+        id: 77,
+        name: 'finalbg',
+        url: finalbg
     },
 ];
 

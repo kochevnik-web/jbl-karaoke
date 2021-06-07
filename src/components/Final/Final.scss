@@ -1,2 +1,91 @@
 .app-final {
+    min-height: 194em;
+    position: relative;
+    width: 100%;
+
+    .final-paralax-confetti {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .jbl-logo {
+        height: 7.7em;
+        left: 46em;
+        position: absolute;
+        top: 4em;
+        width: 8.2em;
+    }
+
+    &-bgimg {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 99%;
+    }
+
+    &-content {
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 0;
+        width: 96em;
+        z-index: 1;
+    }
+
+    &-img {
+        img {
+            height: auto;
+            width: 100%;
+
+            &.final1 {
+                margin: 5.4em 0 2.4em;
+            }
+        }
+    }
+
+    &-title {
+        color: var(--text);
+        margin: 0 0 2.4em 0;
+        font-weight: bold;
+
+        span {
+            font-size: 6em;
+        }
+    }
+
+    &-text {
+        color: var(--text);
+        line-height: 4.5em;
+
+        span {
+            font-size: 2.6em;
+
+            p {
+                margin: 0 0 1.7em 0;
+            }
+        }
+    }
+
+    &-buttons {
+        display: flex;
+
+        .app-btn {
+            width: 50%;
+
+            span {
+                font-weight: bold;
+                font-size: 3.2em;
+
+                .app-mobile & {
+                    font-size: 2.1em;
+                }
+            }
+
+            &:first-child {
+                margin: 0 2em 0 0;
+            }
+        }
+    }
 }

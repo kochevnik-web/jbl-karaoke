@@ -187,9 +187,23 @@ body {
         background-color: var(--red);
         border-color: var(--red);
         border-style: solid;
+        color: var(--white);
 
         &:hover {
             background-color: transparent;
+            color: var(--red);
+        }
+    }
+
+    &-white {
+        background-color: var(--white);
+        border-color: var(--red);
+        border-style: solid;
+        color: var(--text);
+
+        &:hover {
+            background-color: var(--red);
+            color: var(--white);
         }
     }
 
