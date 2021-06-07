@@ -25,8 +25,8 @@ export default function ContextProvider({ children }) {
 
     const [em, setEm] = useState(getEm());
     const [globalHeight, setGlobalHeight] = useState(getHeight());
-    const [screen, setScreen] = useState('game');//start / game / final
-    const [level, setLevel] = useState(0); //0 //9
+    const [screen, setScreen] = useState('start');//start / game / final
+    const [level, setLevel] = useState(0); //0 //0-9
     const [yesno, setYesNo] = useState(null);
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
@@ -83,9 +83,13 @@ export default function ContextProvider({ children }) {
     });
 
     const changeLevel = () => {
-        setYesNo(null);
-        setOverley(true);
-        setLevel(level + 1);
+        if(level < 9){
+            setYesNo(null);
+            setOverley(true);
+            setLevel(level + 1);
+        } else {
+            setScreen('final');
+        }
     }
 
     return (

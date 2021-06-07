@@ -3,6 +3,7 @@ import {Context} from '../../context';
 
 import Start from '../Start/Start';
 import Game from '../Game/Game';
+import Final from '../Final/Final';
 import Overley from '../Overley/Overley';
 import Loader from '../Loader/Loader';
 import Turn from '../Turn/Turn';
@@ -30,6 +31,7 @@ function App() {
                             {overley && <Overley />}
                         </>
                     )}
+                    {screen === 'final' && <Final />}
                 </>
             ) : (
                 <Loader />
