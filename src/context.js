@@ -32,7 +32,7 @@ export default function ContextProvider({ children }) {
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
     const [overley, setOverley] = useState(false); //false
-    const [result, setResult] = useState([true, true, false, false, false, false, false, false, false, false]); //0
+    const [result, setResult] = useState([false, false, false, false, false, false, false, false, false, false]); //0
 
     useEffect(() => {
         let timer = null;
