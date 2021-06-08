@@ -62,7 +62,9 @@ export default function Overley() {
             let timout = setTimeout(() => {
                 setOverley(false);
                 if(variants.data[check].ans) {
-                    setResult(result + 1);
+                    let arr = [...result];
+                    arr[level] = Math.floor(Math.random( ) * (11 - 9 + 1)) + 9;
+                    setResult(arr);
                 }
                 setYesNo(variants.data[check].ans);
             }, 1600);

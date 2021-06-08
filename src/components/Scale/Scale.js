@@ -7,17 +7,13 @@ export default function Scale() {
 
     const {IMAGES, result} = useContext(Context);
 
-    const yes = [...Array(result).fill(true)];
-    const no = [...Array(10 - result).fill(false)];
-    const scale = [...yes, ...no];
-
-    const scaleElements = scale.map((el, indx) => {
+    const scaleElements = result.map((el, indx) => {
         let arr = [...Array(11).keys()];
 
-        let result = arr.map((s, i) => {
-            return (<rect key={(indx + "") + (i + "")} x={i * 10 + 7} y={indx * 31} width="25" height="7" rx="2" transform={'rotate(90 ' + (i * 10 + 7) +  ' ' + (indx * 31) + ')'} fill={el ? 'red' : 'white'}/>);
+        let item = arr.map((s, i) => {
+            return (<rect x={i * 10 + 7} y={indx * 31} width="25" height="7" rx="2" transform={'rotate(90 ' + (i * 10 + 7) +  ' ' + (indx * 31) + ')'} fill={(i + 1) <= 11 - el ? 'white' : 'red'}/>);
         });
-        return result;
+        return item;
     });
 
     return (

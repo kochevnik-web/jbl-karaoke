@@ -44,9 +44,12 @@ export default function Final() {
         }
     });
 
+    const res = result.filter(el => el).length;
+    console.log(res);
+
     let dataFinal = data[0];
-    if(result > 4) dataFinal = data[1];
-    if(result > 7) dataFinal = data[2];
+    if(res > 4) dataFinal = data[1];
+    if(res > 7) dataFinal = data[2];
 
     const mainImage = () => {
         const img = isMobale ? 'mobileImg' : 'mainImg';
