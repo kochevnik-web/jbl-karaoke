@@ -74,6 +74,7 @@ import gif25 from './img/gif25.gif';
 import gif26 from './img/gif26.gif';
 import gif27 from './img/gif27.gif';
 import final1 from './img/final1.png';
+import final1mobile from './img/final1mobile.png';
 import finalballs from './img/finalballs.png';
 import finalbg from './img/finalbg.png';
 
@@ -467,6 +468,11 @@ const dataImages = [
         id: 77,
         name: 'finalbg',
         url: finalbg
+    },
+    {
+        id: 78,
+        name: 'final1mobile',
+        url: final1mobile
     },
 ];
 

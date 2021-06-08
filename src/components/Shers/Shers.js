@@ -8,7 +8,7 @@ export default function Shers() {
 
     const title = 'Исполняй на 5 звезд и зажги вечеринку с JBL!';
     // const desc  = 'Женщины устроены довольно сложно — это мы сейчас не о внутреннем мире, а о физиологии. Вместе с компанией «Гедеон Рихтер» предлагаем вам проверить свои знания на эту тему!';
-    const url   = 'https://medialeaks.ru/';
+    const url   = 'https://medialeaks.ru/jbl-karaoke';
 
     let imgShare = process.env.PUBLIC_URL+ '/jbl-app.png';
 

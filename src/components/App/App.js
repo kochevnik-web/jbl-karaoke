@@ -23,7 +23,7 @@ function App() {
             {imgsLoaded ? (
                 <>
                     {screen === 'start' && <Start />}
-                    {isMobale && screen !== 'start' ? (
+                    {isMobale && screen !== 'start' && screen !== 'final' ? (
                         <Turn />
                     ) : (
                         <>

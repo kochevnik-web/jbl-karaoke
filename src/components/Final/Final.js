@@ -59,7 +59,11 @@ export default function Final() {
             <div className="app-final-content">
                 <Logo />
                 <div className="app-final-img">
-                    <img className={IMAGES[75].name} src={IMAGES[75].url} alt={IMAGES[75].name}/>
+                    {isMobale ? (
+                        <img className={IMAGES[78].name} src={IMAGES[78].url} alt={IMAGES[78].name}/>
+                    ) : (
+                        <img className={IMAGES[75].name} src={IMAGES[75].url} alt={IMAGES[75].name}/>
+                    )}
                 </div>
                 <div className="app-final-title">
                     <span>You are the champion</span>

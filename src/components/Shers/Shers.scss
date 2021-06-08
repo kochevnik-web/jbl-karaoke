@@ -21,6 +21,12 @@
         &:hover {
             background: #014990;
         }
+
+        button {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .share-btn-vk {
@@ -47,6 +53,47 @@
         svg {
             width: 2.4em;
             height: 5em;
+        }
+    }
+}
+
+//Мобильная версия
+
+.app-mobile {
+    .Shers {
+        flex-direction: row;
+        justify-content: center;
+        margin: 3em 0 0 0;
+        position: relative;
+        top: inherit;
+
+        .share-btn {
+            width: 4.4em;
+            height: 4.4em;
+            margin: 0 0.8em 0 0;
+            border-radius: 1em;
+            transform: translateX(0);
+        }
+
+        .share-btn-vk {
+            svg {
+                width: 3.1em;
+                height: auto;
+            }
+        }
+
+        .share-btn-tw {
+            svg {
+                width: 3em;
+                height: auto;
+            }
+        }
+
+        .share-btn-fb {
+            svg {
+                width: 1.6em;
+                height: auto;
+            }
         }
     }
 }
