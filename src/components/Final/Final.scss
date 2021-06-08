@@ -53,12 +53,22 @@
             height: auto;
             width: 100%;
 
-            &.final1 {
+            &.final1,
+            &.final2 {
                 margin: 5.4em 0 2.4em;
             }
 
-            &.final1mobile {
+            &.final3 {
+                margin: 5.4em 0 0;
+            }
+
+            &.final1mobile,
+            &.final2mobile {
                 margin: 5.4em 0 2.4em;
+            }
+
+            &.final3mobile {
+                margin: 3.4em 0 0;
             }
         }
     }

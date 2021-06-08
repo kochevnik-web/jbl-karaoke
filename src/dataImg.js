@@ -74,7 +74,11 @@ import gif25 from './img/gif25.gif';
 import gif26 from './img/gif26.gif';
 import gif27 from './img/gif27.gif';
 import final1 from './img/final1.png';
+import final2 from './img/final2.png';
+import final3 from './img/final3.png';
 import final1mobile from './img/final1mobile.png';
+import final2mobile from './img/final2mobile.png';
+import final3mobile from './img/final3mobile.png';
 import finalballs from './img/finalballs.png';
 import finalbg from './img/finalbg.png';
 
@@ -473,6 +477,26 @@ const dataImages = [
         id: 78,
         name: 'final1mobile',
         url: final1mobile
+    },
+    {
+        id: 79,
+        name: 'final2',
+        url: final2
+    },
+    {
+        id: 80,
+        name: 'final2mobile',
+        url: final2mobile
+    },
+    {
+        id: 81,
+        name: 'final3',
+        url: final3
+    },
+    {
+        id: 82,
+        name: 'final3mobile',
+        url: final3mobile
     },
 ];
 
