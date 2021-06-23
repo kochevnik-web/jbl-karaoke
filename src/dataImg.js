@@ -57,7 +57,7 @@ import gif8 from './img/gif8.png';
 import gif9 from './img/gif9.gif';
 import gif10 from './img/gif10.gif';
 import gif11 from './img/gif11.png';
-import gif12 from './img/gif12.gif';
+import gif12 from './img/gif12.png';
 import gif13 from './img/gif13.gif';
 import gif14 from './img/gif14.gif';
 import gif15 from './img/gif15.gif';
