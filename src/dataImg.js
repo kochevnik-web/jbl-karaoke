@@ -51,9 +51,9 @@ import gif2 from './img/gif2.gif';
 import gif3 from './img/gif3.png';
 import gif4 from './img/gif4.gif';
 import gif5 from './img/gif5.gif';
-import gif6 from './img/gif6.gif';
+import gif6 from './img/gif6.png';
 import gif7 from './img/gif7.gif';
-import gif8 from './img/gif8.gif';
+import gif8 from './img/gif8.png';
 import gif9 from './img/gif9.gif';
 import gif10 from './img/gif10.gif';
 import gif11 from './img/gif11.png';
@@ -84,104 +84,104 @@ import finalbg from './img/finalbg.png';
 
 const dataImages = [
     {
-      id: 0,
-      name: 'lefgStartImage',
-      url: leftImg
+        id: 0,
+        name: 'lefgStartImage',
+        url: leftImg
     },
     {
-      id: 1,
-      name: 'rightStartImage',
-      url: RightImg
+        id: 1,
+        name: 'rightStartImage',
+        url: RightImg
     },
     {
-      id: 2,
-      name: 'bgBalls',
-      url: bgBalls
+        id: 2,
+        name: 'bgBalls',
+        url: bgBalls
     },
     {
-      id: 3,
-      name: 'jblLogo',
-      url: jblLogo
+        id: 3,
+        name: 'jblLogo',
+        url: jblLogo
     },
     {
-      id: 4,
-      name: 'startTitle',
-      url: startTitle
+        id: 4,
+        name: 'startTitle',
+        url: startTitle
     },
     {
-      id: 5,
-      name: 'discoBall',
-      url: discoBall
+        id: 5,
+        name: 'discoBall',
+        url: discoBall
     },
     {
-      id: 6,
-      name: 'mobileStartTitle',
-      url: mobileStartTitle
+        id: 6,
+        name: 'mobileStartTitle',
+        url: mobileStartTitle
     },
     {
-      id: 7,
-      name: 'gameLocation0',
-      url: gameLocation0
+        id: 7,
+        name: 'gameLocation0',
+        url: gameLocation0
     },
     {
-      id: 8,
-      name: 'mess1',
-      url: mess1
+        id: 8,
+        name: 'mess1',
+        url: mess1
     },
     {
-      id: 9,
-      name: 'btnArrow',
-      url: btnArrow
+        id: 9,
+        name: 'btnArrow',
+        url: btnArrow
     },
     {
-      id: 10,
-      name: 'mess2',
-      url: mess2
+        id: 10,
+        name: 'mess2',
+        url: mess2
     },
     {
-      id: 11,
-      name: 'mess3',
-      url: mess3
+        id: 11,
+        name: 'mess3',
+        url: mess3
     },
     {
-      id: 12,
-      name: 'gameLocation01',
-      url: gameLocation01
+        id: 12,
+        name: 'gameLocation01',
+        url: gameLocation01
     },
     {
-      id: 13,
-      name: 'gameLocation02',
-      url: gameLocation02
+        id: 13,
+        name: 'gameLocation02',
+        url: gameLocation02
     },
     {
-      id: 14,
-      name: 'mess4',
-      url: mess4
+        id: 14,
+        name: 'mess4',
+        url: mess4
     },
     {
-      id: 15,
-      name: 'turn',
-      url: turn
+        id: 15,
+        name: 'turn',
+        url: turn
     },
     {
-      id: 16,
-      name: 'gameLocation1',
-      url: gameLocation1
+        id: 16,
+        name: 'gameLocation1',
+        url: gameLocation1
     },
     {
-      id: 17,
-      name: 'gameLocation11',
-      url: gameLocation11
+        id: 17,
+        name: 'gameLocation11',
+        url: gameLocation11
     },
     {
-      id: 18,
-      name: 'gameLocation12',
-      url: gameLocation12
+        id: 18,
+        name: 'gameLocation12',
+        url: gameLocation12
     },
     {
-      id: 19,
-      name: 'mess5',
-      url: mess5
+        id: 19,
+        name: 'mess5',
+        url: mess5
     },
     {
         id: 20,
