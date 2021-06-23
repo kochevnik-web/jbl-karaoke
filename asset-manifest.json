@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jbl-karaoke/static/css/main.4617c1b7.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.6f1b7911.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.6f1b7911.chunk.js.map",
+    "main.js": "/jbl-karaoke/static/js/main.da64555a.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.da64555a.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.b23f3314.chunk.js": "/jbl-karaoke/static/js/2.b23f3314.chunk.js",
@@ -29,11 +29,11 @@
     "static/media/gameLocation11.db746312.png": "/jbl-karaoke/static/media/gameLocation11.db746312.png",
     "static/media/gameLocation12.082c3c27.png": "/jbl-karaoke/static/media/gameLocation12.082c3c27.png",
     "static/media/gameLocation2.d3729a31.png": "/jbl-karaoke/static/media/gameLocation2.d3729a31.png",
-    "static/media/gameLocation21.cfe7f198.png": "/jbl-karaoke/static/media/gameLocation21.cfe7f198.png",
-    "static/media/gameLocation22.4ce441dd.png": "/jbl-karaoke/static/media/gameLocation22.4ce441dd.png",
-    "static/media/gameLocation3.deca3f7d.png": "/jbl-karaoke/static/media/gameLocation3.deca3f7d.png",
-    "static/media/gameLocation31.0a96ded6.png": "/jbl-karaoke/static/media/gameLocation31.0a96ded6.png",
-    "static/media/gameLocation32.31f7266e.png": "/jbl-karaoke/static/media/gameLocation32.31f7266e.png",
+    "static/media/gameLocation21.05d7d2d4.png": "/jbl-karaoke/static/media/gameLocation21.05d7d2d4.png",
+    "static/media/gameLocation22.b7059e77.png": "/jbl-karaoke/static/media/gameLocation22.b7059e77.png",
+    "static/media/gameLocation3.eafeb1ea.png": "/jbl-karaoke/static/media/gameLocation3.eafeb1ea.png",
+    "static/media/gameLocation31.db89ae74.png": "/jbl-karaoke/static/media/gameLocation31.db89ae74.png",
+    "static/media/gameLocation32.8976b447.png": "/jbl-karaoke/static/media/gameLocation32.8976b447.png",
     "static/media/gameLocation4.61cad6f1.png": "/jbl-karaoke/static/media/gameLocation4.61cad6f1.png",
     "static/media/gameLocation41.ac930271.png": "/jbl-karaoke/static/media/gameLocation41.ac930271.png",
     "static/media/gameLocation42.35561ff3.png": "/jbl-karaoke/static/media/gameLocation42.35561ff3.png",
@@ -55,7 +55,7 @@
     "static/media/gif1.fe24cd5e.gif": "/jbl-karaoke/static/media/gif1.fe24cd5e.gif",
     "static/media/gif10.eb86ec3d.gif": "/jbl-karaoke/static/media/gif10.eb86ec3d.gif",
     "static/media/gif11.287a6e1d.png": "/jbl-karaoke/static/media/gif11.287a6e1d.png",
-    "static/media/gif12.8caf8066.gif": "/jbl-karaoke/static/media/gif12.8caf8066.gif",
+    "static/media/gif12.bbf32c11.png": "/jbl-karaoke/static/media/gif12.bbf32c11.png",
     "static/media/gif13.d2de91d9.gif": "/jbl-karaoke/static/media/gif13.d2de91d9.gif",
     "static/media/gif14.3f247bb8.gif": "/jbl-karaoke/static/media/gif14.3f247bb8.gif",
     "static/media/gif15.96a62b73.gif": "/jbl-karaoke/static/media/gif15.96a62b73.gif",
@@ -96,6 +96,6 @@
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.b23f3314.chunk.js",
     "static/css/main.4617c1b7.chunk.css",
-    "static/js/main.6f1b7911.chunk.js"
+    "static/js/main.da64555a.chunk.js"
   ]
 }
