@@ -5,13 +5,11 @@ const levels = [
         nocorect: 12,
         animatePlus: [
             { id: 28, style: { left: '33.7em', top: '18.3em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
-            { id: 31, style: { left: '61.8em', top: '11.7em', width: '11.8em', height: '6em' } }, //Колонка
             { id: 29, style: { left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em' } },//Парень с рюкзаком
             { id: 30, style: { left: '132.9em', top: '24.1em', width: '20.2em', height: '56.2em' } },//Парень не гиф с колокой на плече
         ],
         animateMinus: [
             { id: 28, style: { left: '33.7em', top: '18.3em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
-            { id: 31, style: { left: '61.8em', top: '11.7em', width: '11.8em', height: '6em' } }, //Колонка
             { id: 29, style: { left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em' } },//Парень с рюкзаком
             { id: 30, style: { left: '132.9em', top: '24.1em', width: '20.2em', height: '56.2em' } },//Парень не гиф с колокой на плече
         ]

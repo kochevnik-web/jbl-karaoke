@@ -38,7 +38,7 @@
 
         .app-mobile & {
             left: 0;
-            padding: 0 0.7em;
+            padding: 0 0.7em 3em 0.7em;
             position: relative;
             transform: translateX(0);
             top: 0;
@@ -108,7 +108,7 @@
                 top: -11.3em;
 
                 .app-mobile & {
-                    top: -17em;
+                    top: -16.5em;
                 }
             }
         }

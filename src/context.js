@@ -31,7 +31,7 @@ export default function ContextProvider({ children }) {
     const [isMobale, setIsMobale] = useState(getIsMobile());
     const [imgsLoaded, setImgsLoaded] = useState(false);
     const [countLoaded, setCountLoaded] = useState(0);
-    const [overley, setOverley] = useState(false); //false
+    const [overley, setOverley] = useState(true); //false
     const [result, setResult] = useState([false, false, false, false, false, false, false, false, false, false]); //0
 
     useEffect(() => {
