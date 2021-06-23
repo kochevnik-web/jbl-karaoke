@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jbl-karaoke/static/css/main.4617c1b7.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.85a202cc.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.85a202cc.chunk.js.map",
+    "main.js": "/jbl-karaoke/static/js/main.6f1b7911.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.6f1b7911.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.b23f3314.chunk.js": "/jbl-karaoke/static/js/2.b23f3314.chunk.js",
@@ -25,8 +25,8 @@
     "static/media/gameLocation0.02a9219a.png": "/jbl-karaoke/static/media/gameLocation0.02a9219a.png",
     "static/media/gameLocation01.23128133.png": "/jbl-karaoke/static/media/gameLocation01.23128133.png",
     "static/media/gameLocation02.c66e568a.png": "/jbl-karaoke/static/media/gameLocation02.c66e568a.png",
-    "static/media/gameLocation1.b2e7fae4.png": "/jbl-karaoke/static/media/gameLocation1.b2e7fae4.png",
-    "static/media/gameLocation11.def932dd.png": "/jbl-karaoke/static/media/gameLocation11.def932dd.png",
+    "static/media/gameLocation1.85b6b9a8.png": "/jbl-karaoke/static/media/gameLocation1.85b6b9a8.png",
+    "static/media/gameLocation11.db746312.png": "/jbl-karaoke/static/media/gameLocation11.db746312.png",
     "static/media/gameLocation12.082c3c27.png": "/jbl-karaoke/static/media/gameLocation12.082c3c27.png",
     "static/media/gameLocation2.d3729a31.png": "/jbl-karaoke/static/media/gameLocation2.d3729a31.png",
     "static/media/gameLocation21.cfe7f198.png": "/jbl-karaoke/static/media/gameLocation21.cfe7f198.png",
@@ -75,9 +75,9 @@
     "static/media/gif3.8d7c5165.png": "/jbl-karaoke/static/media/gif3.8d7c5165.png",
     "static/media/gif4.5e228e7a.gif": "/jbl-karaoke/static/media/gif4.5e228e7a.gif",
     "static/media/gif5.635b5506.gif": "/jbl-karaoke/static/media/gif5.635b5506.gif",
-    "static/media/gif6.ba80e1cf.gif": "/jbl-karaoke/static/media/gif6.ba80e1cf.gif",
+    "static/media/gif6.0f7729fb.png": "/jbl-karaoke/static/media/gif6.0f7729fb.png",
     "static/media/gif7.257da08c.gif": "/jbl-karaoke/static/media/gif7.257da08c.gif",
-    "static/media/gif8.e383d234.gif": "/jbl-karaoke/static/media/gif8.e383d234.gif",
+    "static/media/gif8.bdce2bc9.png": "/jbl-karaoke/static/media/gif8.bdce2bc9.png",
     "static/media/gif9.8bded7ba.gif": "/jbl-karaoke/static/media/gif9.8bded7ba.gif",
     "static/media/left.e25c4488.png": "/jbl-karaoke/static/media/left.e25c4488.png",
     "static/media/mess1.ad2f79fd.png": "/jbl-karaoke/static/media/mess1.ad2f79fd.png",
@@ -96,6 +96,6 @@
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.b23f3314.chunk.js",
     "static/css/main.4617c1b7.chunk.css",
-    "static/js/main.85a202cc.chunk.js"
+    "static/js/main.6f1b7911.chunk.js"
   ]
 }
