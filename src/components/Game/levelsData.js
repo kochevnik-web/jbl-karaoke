@@ -87,16 +87,17 @@ const levels = [
             { id: 42, style: { left: '83.6em', top: '21.5em', width: '16.6em', height: '43.2em' } },//Девушка в белом коротком платье
             { id: 29, style: { left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em' } },//Парень с рюкзаком
             { id: 43, style: { left: '131.2em', top: '26.6em', width: '19.4em', height: '45.9em' } },//Девушка в коротком голубом платье
+            { id: 30, style: { left: '123.1em', top: '24em', width: '20.2em', height: '56.2em' } },//Парень не гиф с колокой на плече
             { id: 32, style: { left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em' } }, //Девушка спиной
             { id: 44, style: { left: '43em', top: '31.5em', width: '27.7em', height: '55.5em' } }, //Удевленная девушка не gif
             { id: 45, style: { left: '71.4em', top: '50.3em', width: '44.9em', height: '28.7em' } }, //Стол не gif
             { id: 34, style: { left: '103.1em', top: '31.9em', width: '27.9em', height: '55.5em' } }, //Девушка в зеленом платье
-            { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
+            // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
         ],
         animateMinus: [
             { id: 28, style: { left: '37.1em', top: '18.5em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
             { id: 29, style: { left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em' } },//Парень с рюкзаком
-            { id: 31, style: { left: '59.2em', top: '11.8em', width: '11.8em', height: '6em' } }, //Колонка
+            // { id: 31, style: { left: '59.2em', top: '11.8em', width: '11.8em', height: '6em' } }, //Колонка
             { id: 32, style: { left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em' } }, //Девушка спиной
         ]
     },
