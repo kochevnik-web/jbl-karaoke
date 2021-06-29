@@ -155,7 +155,7 @@ const levels = [
             { id: 28, style: { left: '39.2em', top: '18.4em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
             // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
             { id: 29, style: { left: '143.2em', top: '16.8em', width: '14.6em', height: '43.8em' } },//Парень с рюкзаком
-            // { id: 31, style: { left: '75.9em', top: '54.7em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 31, style: { left: '73.8em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 32, style: { left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em' } }, //Девушка спиной
             { id: 37, style: { left: '45.1em', top: '30em', width: '37.6em', height: '57.4em' } },//Танцующая пара
             { id: 33, style: { left: '122.8em', top: '28.6em', width: '26.1em', height: '56.4em' } }, //Парень с микрофоном
@@ -163,8 +163,8 @@ const levels = [
             { id: 61, style: { left: '136em', top: '47.5em', width: '46.8em', height: '40.4em' } }, //Девушка в кресле Вероника
         ],
         animateMinus: [
-            // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
-            // { id: 31, style: { left: '92.8em', top: '55.3em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 31, style: { left: '109.2em', top: '41.6em', width: '12.8em', height: 'auto' } }, //Колонка
+            { id: 31, style: { left: '89.8em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 64, style: { left: '29.1em', top: '24.4em', width: '17.1em', height: '59.4em' } }, //Девушка с поднятой рукой
             { id: 33, style: { left: '59.6em', top: '29.7em', width: '26.1em', height: '56.4em' } }, //Парень с микрофоном
         ]
@@ -175,16 +175,18 @@ const levels = [
         nocorect: 67,
         animatePlus: [
             { id: 28, style: { left: '39.2em', top: '18.4em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
-            // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
-            // { id: 31, style: { left: '75.9em', top: '54.7em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 40, style: { left: '140.7em', top: '28.3em', width: '20.4em', height: '44.1em' } },//Девушка с микрофоном JBL
+            { id: 31, style: { left: '103.6em', top: '41em', width: '12.8em', height: 'auto' } }, //Колонка
+            { id: 31, style: { left: '73.3em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 32, style: { left: '23.7em', top: '32.7em', width: '26.4em', height: '52.1em' } }, //Девушка спиной
             { id: 37, style: { left: '45.1em', top: '30em', width: '37.6em', height: '57.4em' } },//Танцующая пара
             { id: 34, style: { left: '85.9em', top: '31.77em', width: '27.9em', height: '55.5em' } }, //Девушка в зеленом платье
             { id: 54, style: { left: '117em', top: '29em', width: '18em', height: '53.7em' } }, //Девушка спиной в штанах
         ],
         animateMinus: [
-            // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
-            // { id: 31, style: { left: '92.8em', top: '55.3em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 40, style: { left: '45.4em', top: '25.5em', width: '20.4em', height: '44.1em' } },//Девушка с микрофоном JBL
+            { id: 31, style: { left: '70.6em', top: '41em', width: '12.8em', height: 'auto' } }, //Колонка
+            { id: 31, style: { left: '93.3em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 49, style: { left: '4.1em', top: '31.3em', width: '41.9em', height: '55.1em' } }, //Девушка в свитере
             { id: 68, style: { left: '126.4em', top: '27.9em', width: '19.4em', height: '53.2em' } }, //Подозрительный чел
         ]
@@ -195,8 +197,8 @@ const levels = [
         nocorect: 73,
         animatePlus: [
             { id: 28, style: { left: '131.2em', top: '18.4em', width: '22.9em', height: '42.1em' } },//Парень в розовой рубашке
-            // { id: 31, style: { left: '59.2em', top: '3.5em', width: '11.8em', height: '6em' } }, //Колонка
-            // { id: 31, style: { left: '95.6em', top: '54.7em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 31, style: { left: '103.6em', top: '31.8em', width: '12.8em', height: 'auto' } }, //Колонка
+            { id: 31, style: { left: '93.3em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 37, style: { left: '34.3em', top: '28.6em', width: '34.4em', height: '52.5em' } },//Танцующая пара
             { id: 34, style: { left: '65.1em', top: '31.2em', width: '27.9em', height: '55.5em' } }, //Девушка в зеленом платье
             { id: 38, style: { left: '116.1em', top: '27.8em', width: '32.3em', height: '53em' } }, //Девушка в жёлтом платье
@@ -205,8 +207,8 @@ const levels = [
         ],
         animateMinus: [
             { id: 74, style: { left: '39.6em', top: '19.2em', width: '12.5em', height: '41em' } }, //Мальчик
-            // { id: 31, style: { left: '59.3em', top: '11.7em', width: '11.8em', height: '6em' } }, //Колонка
-            // { id: 31, style: { left: '92.8em', top: '55.3em', width: '15.8em', height: '8.1em' } }, //Колонка
+            { id: 31, style: { left: '78.5em', top: '32em', width: '12.8em', height: 'auto' } }, //Колонка
+            { id: 31, style: { left: '74.1em', top: '54.6em', width: '17.5em', height: '9em' } }, //Колонка
             { id: 33, style: { left: '101.3em', top: '30.7em', width: '26.1em', height: '56.4em' } }, //Парень с микрофоном
         ]
     },
