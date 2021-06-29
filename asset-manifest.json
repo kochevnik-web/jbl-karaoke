@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jbl-karaoke/static/css/main.333cdabe.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.b20c53d5.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.b20c53d5.chunk.js.map",
+    "main.js": "/jbl-karaoke/static/js/main.547989a4.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.547989a4.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.b23f3314.chunk.js": "/jbl-karaoke/static/js/2.b23f3314.chunk.js",
@@ -38,11 +38,11 @@
     "static/media/gameLocation41.8506bc9a.png": "/jbl-karaoke/static/media/gameLocation41.8506bc9a.png",
     "static/media/gameLocation42.fa178902.png": "/jbl-karaoke/static/media/gameLocation42.fa178902.png",
     "static/media/gameLocation5.19cecd98.png": "/jbl-karaoke/static/media/gameLocation5.19cecd98.png",
-    "static/media/gameLocation51.113fbe41.png": "/jbl-karaoke/static/media/gameLocation51.113fbe41.png",
-    "static/media/gameLocation52.1f034943.png": "/jbl-karaoke/static/media/gameLocation52.1f034943.png",
+    "static/media/gameLocation51.56a867dd.png": "/jbl-karaoke/static/media/gameLocation51.56a867dd.png",
+    "static/media/gameLocation52.064ab2bc.png": "/jbl-karaoke/static/media/gameLocation52.064ab2bc.png",
     "static/media/gameLocation6.8df0ec03.png": "/jbl-karaoke/static/media/gameLocation6.8df0ec03.png",
-    "static/media/gameLocation61.37c72765.png": "/jbl-karaoke/static/media/gameLocation61.37c72765.png",
-    "static/media/gameLocation62.33c3f494.png": "/jbl-karaoke/static/media/gameLocation62.33c3f494.png",
+    "static/media/gameLocation61.5057be13.png": "/jbl-karaoke/static/media/gameLocation61.5057be13.png",
+    "static/media/gameLocation62.b8e329e0.png": "/jbl-karaoke/static/media/gameLocation62.b8e329e0.png",
     "static/media/gameLocation7.2c45fa49.png": "/jbl-karaoke/static/media/gameLocation7.2c45fa49.png",
     "static/media/gameLocation71.ba55e4b4.png": "/jbl-karaoke/static/media/gameLocation71.ba55e4b4.png",
     "static/media/gameLocation72.f10e5661.png": "/jbl-karaoke/static/media/gameLocation72.f10e5661.png",
@@ -55,7 +55,7 @@
     "static/media/gif1.fe24cd5e.gif": "/jbl-karaoke/static/media/gif1.fe24cd5e.gif",
     "static/media/gif10.eb86ec3d.gif": "/jbl-karaoke/static/media/gif10.eb86ec3d.gif",
     "static/media/gif11.287a6e1d.png": "/jbl-karaoke/static/media/gif11.287a6e1d.png",
-    "static/media/gif12.bbf32c11.png": "/jbl-karaoke/static/media/gif12.bbf32c11.png",
+    "static/media/gif12.8cd94d22.gif": "/jbl-karaoke/static/media/gif12.8cd94d22.gif",
     "static/media/gif13.d2de91d9.gif": "/jbl-karaoke/static/media/gif13.d2de91d9.gif",
     "static/media/gif14.3f247bb8.gif": "/jbl-karaoke/static/media/gif14.3f247bb8.gif",
     "static/media/gif15.96a62b73.gif": "/jbl-karaoke/static/media/gif15.96a62b73.gif",
@@ -73,11 +73,11 @@
     "static/media/gif26.f0d49c91.gif": "/jbl-karaoke/static/media/gif26.f0d49c91.gif",
     "static/media/gif27.1d358900.gif": "/jbl-karaoke/static/media/gif27.1d358900.gif",
     "static/media/gif3.8d7c5165.png": "/jbl-karaoke/static/media/gif3.8d7c5165.png",
-    "static/media/gif4.5e228e7a.gif": "/jbl-karaoke/static/media/gif4.5e228e7a.gif",
+    "static/media/gif4.0afb5732.gif": "/jbl-karaoke/static/media/gif4.0afb5732.gif",
     "static/media/gif5.635b5506.gif": "/jbl-karaoke/static/media/gif5.635b5506.gif",
-    "static/media/gif6.0f7729fb.png": "/jbl-karaoke/static/media/gif6.0f7729fb.png",
+    "static/media/gif6.78206c56.gif": "/jbl-karaoke/static/media/gif6.78206c56.gif",
     "static/media/gif7.257da08c.gif": "/jbl-karaoke/static/media/gif7.257da08c.gif",
-    "static/media/gif8.bdce2bc9.png": "/jbl-karaoke/static/media/gif8.bdce2bc9.png",
+    "static/media/gif8.5eb066b7.gif": "/jbl-karaoke/static/media/gif8.5eb066b7.gif",
     "static/media/gif9.8bded7ba.gif": "/jbl-karaoke/static/media/gif9.8bded7ba.gif",
     "static/media/left.e25c4488.png": "/jbl-karaoke/static/media/left.e25c4488.png",
     "static/media/mess1.ad2f79fd.png": "/jbl-karaoke/static/media/mess1.ad2f79fd.png",
@@ -96,6 +96,6 @@
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.b23f3314.chunk.js",
     "static/css/main.333cdabe.chunk.css",
-    "static/js/main.b20c53d5.chunk.js"
+    "static/js/main.547989a4.chunk.js"
   ]
 }
