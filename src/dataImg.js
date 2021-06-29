@@ -51,13 +51,13 @@ import gif2 from './img/gif2.gif';
 import gif3 from './img/gif3.png';
 import gif4 from './img/gif4.gif';
 import gif5 from './img/gif5.gif';
-import gif6 from './img/gif6.png';
+import gif6 from './img/gif6.gif';
 import gif7 from './img/gif7.gif';
-import gif8 from './img/gif8.png';
+import gif8 from './img/gif8.gif';
 import gif9 from './img/gif9.gif';
 import gif10 from './img/gif10.gif';
 import gif11 from './img/gif11.png';
-import gif12 from './img/gif12.png';
+import gif12 from './img/gif12.gif';
 import gif13 from './img/gif13.gif';
 import gif14 from './img/gif14.gif';
 import gif15 from './img/gif15.gif';
@@ -73,6 +73,7 @@ import gif24 from './img/gif24.gif';
 import gif25 from './img/gif25.gif';
 import gif26 from './img/gif26.gif';
 import gif27 from './img/gif27.gif';
+import gif28 from './img/gif28.png';
 import final1 from './img/final1.png';
 import final2 from './img/final2.png';
 import final3 from './img/final3.png';
@@ -497,6 +498,11 @@ const dataImages = [
         id: 82,
         name: 'final3mobile',
         url: final3mobile
+    },
+    {
+        id: 83,
+        name: 'gif28',
+        url: gif28
     },
 ];
 
