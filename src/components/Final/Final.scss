@@ -102,6 +102,15 @@
             p {
                 margin: 0 0 1.7em 0;
             }
+
+            a {
+                color: var(--text);
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
         }
 
         .app-mobile & {

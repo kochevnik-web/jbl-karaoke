@@ -129,6 +129,15 @@
                 .app-mobile & {
                     font-size: 1.4em;
                 }
+
+                a {
+                    text-decoration: underline;
+                    color: var(--text);
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
             }
         }
 

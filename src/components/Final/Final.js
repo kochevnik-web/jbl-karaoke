@@ -89,7 +89,12 @@ export default function Final() {
                     <span dangerouslySetInnerHTML={{ __html: dataFinal.text }}></span>
                 </div>
                 <div className="app-final-buttons">
-                    <a href="https://harman.club/jblpartyboxgobru-1-jbl-partybox-on-the-go" target="_blank" className="app-btn app-btn-red">
+                    <a
+                        href="https://bit.ly/2V0cLAM"
+                        target="_blank"
+                        className="app-btn app-btn-red"
+                        rel="noreferrer"
+                    >
                         <span>Хочу знать больше</span>
                     </a>
                     <div className="app-btn app-btn-white" onClick={() => window.location.reload()}>
