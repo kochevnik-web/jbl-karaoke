@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jbl-karaoke/static/css/main.333cdabe.chunk.css",
-    "main.js": "/jbl-karaoke/static/js/main.08e6bcfd.chunk.js",
-    "main.js.map": "/jbl-karaoke/static/js/main.08e6bcfd.chunk.js.map",
+    "main.css": "/jbl-karaoke/static/css/main.375c7945.chunk.css",
+    "main.js": "/jbl-karaoke/static/js/main.c4a07ae3.chunk.js",
+    "main.js.map": "/jbl-karaoke/static/js/main.c4a07ae3.chunk.js.map",
     "runtime-main.js": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js",
     "runtime-main.js.map": "/jbl-karaoke/static/js/runtime-main.bdffe6f4.js.map",
     "static/js/2.b23f3314.chunk.js": "/jbl-karaoke/static/js/2.b23f3314.chunk.js",
     "static/js/2.b23f3314.chunk.js.map": "/jbl-karaoke/static/js/2.b23f3314.chunk.js.map",
     "index.html": "/jbl-karaoke/index.html",
-    "static/css/main.333cdabe.chunk.css.map": "/jbl-karaoke/static/css/main.333cdabe.chunk.css.map",
+    "static/css/main.375c7945.chunk.css.map": "/jbl-karaoke/static/css/main.375c7945.chunk.css.map",
     "static/js/2.b23f3314.chunk.js.LICENSE.txt": "/jbl-karaoke/static/js/2.b23f3314.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/jbl-karaoke/static/media/GothamPro.9e3de475.woff",
     "static/media/bgBalls.b84f47f5.png": "/jbl-karaoke/static/media/bgBalls.b84f47f5.png",
@@ -95,7 +95,7 @@
   "entrypoints": [
     "static/js/runtime-main.bdffe6f4.js",
     "static/js/2.b23f3314.chunk.js",
-    "static/css/main.333cdabe.chunk.css",
-    "static/js/main.08e6bcfd.chunk.js"
+    "static/css/main.375c7945.chunk.css",
+    "static/js/main.c4a07ae3.chunk.js"
   ]
 }
